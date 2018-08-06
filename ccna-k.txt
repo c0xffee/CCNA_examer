@@ -1,0 +1,8292 @@
+
+
+
+QUESTION 1
+Which technology supports the stateless assignment of IPv6 addresses?(Choose two.)
+A.
+B.
+C.
+D.
+
+DNS
+DHCPv6
+DHCP
+autoconfiguration
+
+Correct Answer: BD
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 2
+
+After you configure the Loopback0 interface, which command can you enter to verify the
+status of the interface and determine whether fast switching is enabled?
+A. Router#show ip interface loopback 0
+B. Router#show run
+C. Router#show interface loopback 0
+D. Router#show ip interface brief
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 3
+
+What are two requirements for an HSRP group? (Choose two.)
+A. exactly one active router
+B. one or more standby routers
+C. one or more backup virtual routers
+D. exactly one standby active router
+E. exactly one backup virtual router
+Correct Answer: AD
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 4
+
+Which command sequence can you enter to create VLAN 20 and assign it to an interface
+on a switch?
+A. Switch(config)#vlan 20
+
+Switch(config)#Interface gig x/y
+Switch(config-if)#switchport access vlan 20
+
+B. Switch(config)#Interface gig x/y
+
+Switch(config-if)#vlan 20
+Switch(config-vlan)#switchport access vlan 20
+C. Switch(config)#vlan 20
+Switch(config)#Interface vlan 20
+Switch(config-if)#switchport trunk native vlan 20
+D. Switch(config)#vlan 20
+Switch(config)#Interface vlan 20
+Switch(config-if)#switchport access vlan 20
+E. Switch(config)#vlan 20
+Switch(config)#Interface vlan 20
+Switch(config-if)#switchport trunk allowed vlan 20
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 5
+
+Which three commands can you use to set a router boot image? (Choose three.)
+A. Router(config)# boot system flash c4500-p-mz.121-20.bin
+B. Router(config)# boot system tftp c7300-js-mz.122-33.SB8a.bin
+C. Router(config)#boot system rom c7301-advipservicesk9-mz.124-24.T4.bin
+D. Router> boot flash:c180x-adventerprisek9-mz-124-6T.bin
+E. Router(config)#boot flash:c180x-adventerprisek9-mz-124-6T.bin
+F. Router(config)#boot bootldr bootflash:c4500-jk9s-mz.122-23f.bin
+Correct Answer: ABC
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 6
+Which two statements about IPv6 and routing protocols are true? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+EIGRPv3 was developed to support IPv6 routing.
+OSPFv3 was developed to support IPv6 routing.
+Loopback addresses are used to form routing adjacencies.
+EIGRP, OSPF, and BGP are the only routing protocols that support IPv6.
+Link-local addresses are used to form routing adjacencies.
+
+Correct Answer: BE
+Section: part 1
+Explanation
+Explanation/Reference:
+-----------鸿鹄论坛：http://bbs.hh010.com/
+QUESTION 7
+
+If primary and secondary root switches with priority 16384 both experience catastrophic
+
+losses, which tertiary switch can take over?
+A. a switch with priority 20480
+B. a switch with priority 8192
+C. a switch with priority 4096
+D. a switch with priority 12288
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+题目前提是优先级16384是跟桥，所有其他交换机优先级必须大于16384才能使其成为跟桥
+QUESTION 8
+
+Which two statements about late collisions are true? (Choose two.)
+A. They may indicate a duplex mismatch.
+B. By definition, they occur after the 512th bit of the frame has been transmitted.
+C. They indicate received frames that did not pass the FCS match.
+D. They are frames that exceed 1518 bytes.
+E. They occur when CRC errors and interference occur on the cable.
+Correct Answer: AB
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 9
+
+Which command can you enter to set the default route for all traffic to an interface?
+A. router(config)#ip route 0.0.0.0 0.0.0.0 GigabitEthernet0/1
+B. router(config)#ip route 0.0.0.0 255.255.255.255 GigabitEthernet0/1
+C. router(config-router)#default-information originate
+D. router(config-router)#default-information originate always
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 10
+
+Which two spanning-tree port states does RSTP combine to allow faster convergence?
+(Choose two.)
+A. blocking
+B. listening
+C. learning
+D. forwarding
+E. discarding
+
+Correct Answer: AB
+Section: part 1
+Explanation
+Explanation/Reference:
+STP定义了5种不同的端口状态，关闭(disable)，监听（Listening），学习（Learning），阻断（Blocking）
+和转发（Forwarding）
+在RSTP中只有三种端口状态，Discarding、Learning和Forwarding
+QUESTION 11
+
+If a router has four interfaces and each interface is connected to four switches, how
+many broadcast domains are present on the router?
+A.
+B.
+C.
+D.
+
+1
+2
+4
+8
+
+Correct Answer: C
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 12
+Which command enables IPv6 forwarding on a cisco router?
+A.
+B.
+C.
+D.
+
+ipv6 host
+ipv6 unicast-routing
+ipv6 local
+ipv6 neighbor
+
+Correct Answer: B
+Section: part 1
+Explanation
+Explanation/Reference:
+在路由器上激活IPV6的命令
+QUESTION 13
+Refer to the exhibit. What is the most appropriate summarization for these routes?
+
+A.
+B.
+C.
+D.
+
+10.0.0.0 /21
+10.0.0.0 /22
+10.0.0.0 /23
+10.0.0.0 /24
+
+Correct Answer: B
+Section: part 1
+
+Explanation
+Explanation/Reference:
+
+考点分析：这道题考的是子网的聚合。
+10.0.
+10.0.
+10.0.
+10.0.
+
+00000000
+00000001
+00000010
+00000010
+
+.0
+.0
+.0
+.0
+
+十进制转成二进制， 发现这四个网段前22位都是一致的，故选项 为B。
+QUESTION 14
+Which set of commands is recommended to prevent the use of a hub in the access layer?
+A. switch(config-if)#switchport
+switch(config-if)#switchport
+B. switch(config-if)#switchport
+switch(config-if)#switchport
+C. switch(config-if)#switchport
+switch(config-if)#switchport
+D. switch(config-if)#switchport
+switch(config-if)#switchport
+
+mode trunk
+port-security
+mode trunk
+port-security
+mode access
+port-security
+mode access
+port-security
+
+maximum 1
+mac-address 1
+maximum 1
+mac-address 1
+
+Correct Answer: C
+Section: part 1
+Explanation
+Explanation/Reference:
+防止集线器在接入层交换机上使用需要下列那个命令？
+考点分析：这道题考的是端口安全，怎么限制集线器的使用，即是只允许在交换机的接口上连一个终端设
+备。
+QUESTION 15
+A router has learned three possible routes that could be used to reach a destination network. One route is
+from EIGRP and has a composite metric of 20514560. Another route is from OSPF with a metric of 782.
+The last is from RIPv2 and has a metric of 4. Which route or routes will the router install in the routing
+table?
+A.
+B.
+C.
+D.
+E.
+
+the OSPF route
+the EIGRP route
+the RIPv2 route
+all three routes
+the OSPF and RIPv2 routes
+
+Correct Answer: B
+Section: part 1
+Explanation
+Explanation/Reference:
+考点：考查路由条目进入路由表的原则：最优路由才能进入。去往同一目的的多条路由，先比较AD值，AD
+值小者优先；AD值一直则比较metric值。
+AD值：
+EIGRP 90
+OSPF 110
+RIP 120
+QUESTION 16
+Two routers named Atlanta and Brevard are connected via their serial interfaces as illustrated, but they are
+unable to communicate. The Atlanta router is known to have the correct configuration.
+
+Given the partial configurations, identify the fault on the Brevard router that is causing the lack of
+connectivity.
+A.
+B.
+C.
+D.
+E.
+F.
+
+incompatible IP address
+insufficient bandwidth
+incorrect subnet mask
+incompatible encapsulation
+link reliability too low
+IPCP closed
+
+Correct Answer: D
+Section: part 1
+Explanation
+Explanation/Reference:
+两个路由器端口封装不一致，一个是HDLC，一个是PPP
+QUESTION 17
+A network administrator needs to configure a serial link between the main office and a remote location.The
+router at the remote office is a non-cisco router. How should the network administrator configure the serial
+interface of the main office router to make the connection?
+A. Main(config)#interface serial 0/0
+Main(config-if)#ip address 172.16.1.1 255.255.255.252
+Main(config-if)#no shut
+B. Main(config)#interface serial 0/0
+Main(config-if)#ip address 172.16.1.1 255.255.255.252
+Main(config-if)#encapsulation ietf
+Main(config-if)#no shut
+C. Main(config)#interface serial 0/0
+Main(config-if)#ip address 172.16.1.1 255.255.255.252
+Main(config-if)#encapsulation frame-relay
+Main(config-if)#authenication chap
+Main(config-if)#no shut
+D. Main(config)#interface serial 0/0
+Main(config-if)#ip address 172.16.1.1 255.255.255.252
+Main(config-if)#encapsulation ppp
+Main(config-if)#no shut
+Correct Answer: D
+Section: part 1
+
+Explanation
+Explanation/Reference:
+remote office 使用非思科路由器，则main office 是思科路由器。
+HDLC是Cisco路由器在同步串行线路上的默认封装方式。每个厂商的HDLC都是专用的。
+PPP 用于异步串行（拨号）或同步串行（isdn）介质。PPP的基本目标是在数据链路层点到点链路上传输
+第3层包。它不是一个专用协议，这就意味着如果你的路由器并不都是Cisco的，可以在串行接口上配置
+PPP封装。串行接口两端的路由器都配置PPP才能工作。
+帧中继有两种封装类型----Cisco和IETF.除非手动输入IETF，否则默认封装是Cisco。如果用帧中继连接一条
+Cisco设备和一条非Cisco设备，要选择IETF封装类型。命令格式如下
+Router(config)#int s0/0/0
+Router(config-if)#encapsulation ?
+frame-relay Frame Relay networks
+hdlc Serial HDLC synchronous
+ppp Point-to-Point protocol
+Router(config-if)#encapsulation frame-relay ?
+ietf Use RFC1490/RFC2427 encapsulation
+<cr>
+由此判断选项B 和C，命令格式不正确。
+如果当一台思科路由器和一台非思科路由器通过串行连接在一起时，必须配置PPP或另外一种封装方法，像
+帧中继，因为默认的HDLC不能工作。
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 18
+Which layer 2 protocol encapsulation type supports synchronous and asynchronous circuis and has built-in
+security mechanisms?
+A.
+B.
+C.
+D.
+
+Frame Relay
+HDLC
+x.25
+PPP
+
+Correct Answer: D
+Section: part 1
+Explanation
+Explanation/Reference:
+哪一个二层协议封装支持同步和异步电路并内嵌安全机制？
+答案：PPP
+QUESTION 19
+Refer to the exhibit. The two connected ports on the switch are not turning orange or green. What would be
+the most effective steps to troubleshoot this physical layer problem? (Choose three.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Ensure that the Ethernet encapsulations match on the interconnected router and switch ports.
+Ensure that cables A and B are straight-through cables.
+Ensure cable A is plugged into a trunk port.
+Ensure the switch has power.
+Reboot all of the devices.
+Reseat all cables.
+
+Correct Answer: BDF
+Section: part 1
+Explanation
+Explanation/Reference:
+考点：考查交换机端口颜色的定义。绿色正常，橘黄色有故障。
+A：确认以太网封装是否匹配，错误。封装错误不会在端口LED显示
+B：确认线缆A/B是否为直通线，正确。异构设备使用直通线
+C：确认线缆A是否插到trunk口，错误。
+D：确认是否通电，正确。
+E：重启设备，错误。
+F：重置所有电缆，正确。
+QUESTION 20
+A network administrator is troubleshooting the OSPF configuration of routers R1 and R2. The routers
+cannot establish an adjacency relationship on their common Ethernet link. The graphic shows the output of
+the show ip ospf interface e0 command for routers R1 and R2. Based on the information in the graphic,
+what is the cause of this problem?
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+The OSPF area is not configured properly.
+The priority on R1 should be set higher.
+The cost on R1 should be set higher.
+The hello and dead timers are not configured properly.
+A backup designated router needs to be added to the network.
+The OSPF process ID numbers must match.
+
+Correct Answer: D
+Section: part 1
+Explanation
+Explanation/Reference:
+
+QUESTION 21
+What will happen if a private IP address is assigned to a public interface connected to an ISP?
+A.
+B.
+C.
+D.
+E.
+
+Addresses in a private range will be not routed on the Internet backbone.
+Only the ISP router will have the capability to access the public network.
+The NAT process will be used to translate this address in a valid IP address.
+Several automated methods will be necessary on the private network.
+A conflict of IP addresses happens, because other public routers can use the same range.
+
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+私有地址被分配到连接到ISP的公网端口上，将会发生什么？
+内部网络使用了私有地址，如果不使用nat的话我们是没办法访问外部网络的。因为公共网络不会给私有地
+址路由
+QUESTION 22
+Refer to the exhibit. The Bigtime router is unable to authenticate to the Littletime router. What is the cause
+of the problem?
+
+A.
+B.
+C.
+D.
+E.
+
+The usernames are incorrectly configured on the two routers.
+The passwords do not match on the two routers.
+CHAP authentication cannot be used on a serial interface.
+The routers cannot be connected from interface S0/0 to interface S0/0.
+With CHAP authentication, one router must authenticate to another router. The routers cannot be
+configured to authenticate to each other.
+
+Correct Answer: B
+Section: part 1
+Explanation
+Explanation/Reference:
+ppp在进行认证配置的时候.用户名要是对端的用户名.但是password要是两边共享的password!
+QUESTION 23
+What will be the result if the following configuration commands are implemented on a Cisco
+switch?
+Switch(config-if)# switchport port-security
+Switch(config-if)# switchport port-security mac-address sticky
+A.
+B.
+C.
+D.
+
+A dynamically learned MAC address is saved in the startup-configuration file.
+A dynamically learned MAC address is saved in the running-configuration file.
+A dynamically learned MAC address is saved in the VLAN database.
+Statically configured MAC addresses are saved in the startup-configuration file if frames from that
+address are received.
+E. Statically configured MAC addresses are saved in the running-configuration file if frames from that
+address are received.
+Correct Answer: B
+Section: part 1
+Explanation
+Explanation/Reference:
+考点：考查交换机端口安全。sticky 关键字使静态配置和动态学习的mac方式优势相结合
+A：把动态学习的mac保存到startup-config文件中，错误
+B：把动态学习的mac保存到running-config文件中，正确
+C：把动态学习的mac保存到vlan数据库中。错误。
+D：如果接收到数据帧中包含静态配置的MAC地址，它将被保存在startup-config文件，错误
+E:如果接收到数据帧中包含静态配置的MAC地址，它将被保存在running-config文件，错误
+静态配置的直接保存在running-config里了。
+
+QUESTION 24
+Refer to the exhibit. The following commands are executed on interface fa0/1 of 2950Switch.
+2950Switch(config-if)# switchport port-security
+2950Switch(config-if)# switchport port-security mac-address sticky
+2950Switch(config-if)# switchport port-security maximum 1
+The Ethernet frame that is shown arrives on interface fa0/1. What two functions will occur when this frame
+is received by 2950Switch? (Choose two.)
+
+A. The MAC address table will now have an additional entry of fa0/1 FFFF.FFFF.FFFF.
+
+B.
+C.
+D.
+E.
+
+Only host A will be allowed to transmit frames on fa0/1.
+This frame will be discarded when it is received by 2950Switch.
+All frames arriving on 2950Switch with a destination of 0000.00aa.aaaa will be forwarded out fa0/1.
+Hosts B and C may forward frames out fa0/1 but frames arriving from other switches will not be
+forwarded out fa0/1.
+F. Only frames from source 0000.00bb.bbbb, the first learned MAC address of 2950Switch, will be
+forwarded out fa0/1.
+Correct Answer: BD
+Section: part 1
+Explanation
+Explanation/Reference:
+考点：考查交换机端口安全。maximum 1说明只允许一个mac通过。
+A：添加ffff.ffff.ffff到mac地址表，错误。这是个arp报文，把数据包源mac添加到mac表
+B：仅允许主机A通过f0/1，正确
+C:当2950switch收到帧后丢弃，错误。应该是除f0/1外所有端口洪泛
+D：当2950switch收到目的为0000.00aa.aaaa的数据帧会从f0/1转发，正确。
+E：主机B和C的数据帧会从f0/1转发，但从其他交换接收到的不会，错误。
+F：仅有源mac为0000.00bb.bbbb，2950switch第一个学习到的mac地址才有从f0/1转发。错误。
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 25
+
+which command can you enter to re-enable Cisco Discovery Protocol on a local router
+after it has been disabled?
+A. Router(config-if)#cdp run
+B. Router(config-if)#cdp enable
+C. Router(config)#cdp run
+D. Router(config)#cdp enable
+Correct Answer: C
+Section: part 1
+Explanation
+Explanation/Reference:
+那一条命令在全局配置模式下能查看直连的cisco设备？
+考点分析：这道题考的是CDP协议。CDP协议在路由器全局启用的命令是cdp run，答案是C。
+QUESTION 26
+A cisco router is booting and has just completed the POST process.It is now ready to find and load an
+IOSimage.what function does the router perform next?
+A.
+B.
+C.
+D.
+
+It checks the configuration register
+It attempts to boot from a TFTP server
+It loads the first image file in flash memory
+It inspects the configuration file in NVRAM for boot instructions
+
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+下一步检查configuration register 然后决定加载配置
+QUESTION 27
+What are three advantages of VLANs? (Choose three.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+They establish broadcast domains in switched networks.
+They utilize packet filtering to enhance network security.
+They provide a method of conserving IP addresses in large networks.
+They provide a low-latency internetworking alternative to routed networks.
+They allow access to network services based on department, not physical location.
+They can simplify adding, moving, or changing hosts on the network.
+
+Correct Answer: AEF
+Section: part 1
+Explanation
+Explanation/Reference:
+A：VLAN在交换网络中建立广播域，正确
+B：利用VLAN的数据包过滤，增强网络的安全性。错误，没有这个特性。
+C：提供了在大型网络中的保护IP地址的方法。错误。
+D：提供低延迟互联网络替代路由网络。错误
+E：vlan允许基于逻辑划分的网络访问，不是物理位置。正确。
+F：VLAN可以大大简化添加，移动或更改网络上的主机。正确。
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 28
+Refer to the exhibit. The output that is shown is generated at a switch. Which three of these statements are
+true? (Choose three.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+All ports will be in a state of discarding, learning, or forwarding.
+Thirty VLANs have been configured on this switch.
+The bridge priority is lower than the default value for spanning tree.
+All interfaces that are shown are on shared media.
+All designated ports are in a forwarding state.
+The switch must be the root bridge for all VLANs on this switch.
+
+Correct Answer: ACE
+Section: part 1
+Explanation
+
+Explanation/Reference:
+rstp的所有接口在收敛完成之前都将经历discarding->learning->forwarding的状态,并且rstp的默认优先级应
+该为32768，所有的DP都将转发数据
+QUESTION 29
+Which two commands can be used to verify a trunk link configurationt status on a given cisco switch?
+(choose two)
+A. show interfaces interface
+B. show interfaces trunk
+C. show interfaces switchport
+D. show ip interface brief
+E. show interfaces vlan
+Correct Answer: BC
+Section: part 1
+Explanation
+Explanation/Reference:
+查看trunk命令，show interface trunk和show interface switchport ，只能选BC
+
+QUESTION 30
+Which two states are the port states when RSTP has converged?(choose two)
+A.
+B.
+C.
+D.
+E.
+
+blocking
+learning
+discarding
+forwarding
+listening
+
+Correct Answer: CD
+Section: part 1
+Explanation
+Explanation/Reference:
+在RSTP中只有三种端口状态，Discarding、Leaning和Forwarding，汇聚之后的状态只有Discarding、
+Forwarding。
+QUESTION 31
+Refer to the exhibit.A technician has installed SwithchB and needs to configure it for remote access from
+the management workstation connected SwitchA Which set of commands is required to accomplish this
+task?
+
+A. SwitchB(config)#interface FastEthernet 0/1
+SwitchB(config)#ip address 192.168.8.252 255.255.255.0
+SwitchB(config)#no shutdown
+B. SwitchB(config)#ip default-gateway 192.168.8.254
+SwitchB(config)#interface vlan 1
+SwitchB(config)#ip address 192.168.8.252 255.255.255.0
+SwitchB(config)#no shutdown
+C. SwitchB(config)#interface vlan 1
+SwitchB(config)#ip address 192.168.8.252 255.255.255.0
+SwitchB(config)#ip default-gateway 192.168.8.254 255.255.255.0
+SwitchB(config)#no shutdown
+D. SwitchB(config)#ip default-network 192.168.8.254
+SwitchB(config)#interface vlan 1
+SwitchB(config)#ip address 192.168.8.252 255.255.255.0
+SwitchB(config)#no shutdown
+Correct Answer: B
+Section: part 1
+Explanation
+Explanation/Reference:
+想要远程管理交换机需要在交换机上的配置，B正确
+QUESTION 32
+Which of the following are benefits of VLANs? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+They increase the size of collision domains.
+They allow logical grouping of users by function.
+They can enhance network security.
+They increase the size of broadcast domains while decreasing the number of collision domains.
+They increase the number of broadcast domains while decreasing the size of the broadcast domains.
+They simplify switch administration.
+
+Correct Answer: BCE
+Section: part 1
+Explanation
+
+Explanation/Reference:
+考查VLAN的特点
+A：增加冲突域的大小，错误
+B：允许逻辑划分网段，正确
+C：增强网络安全，正确。不同vlan不能直接通信。
+D：当减少冲突域时增加广播域的大小。错误
+E：减少广播域的大小时增加了广播域个数。正确。
+F:简化交换机管理。答非所问。
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 33
+What are three benefits of implementing vlans?(choose three)
+A. A more efficient use of bandwidth can be achieved allowing many physical groups to use the same
+network infrastructure
+B. Broadcast storms can be mitigated by decreasing the number of broadcast domains,thus increasing
+their size.
+C. A higher level of network security can be reached by separating sensitive data traffic from other
+network traffic.
+D. Port-based vlans increase switch-port use efficient,thanks to 802.1Q trunks
+E. A more efficient use of bandwidth can be achieved allowing many logical networks to use the same
+network infrastructure.
+F. Broadcast storms can be mitigated by increasing the number of broadcast domains,thus reducing their
+size.
+G. VLANs make it easier for IT staff to configure new logical groups,because the vlans all belong to the
+same broadcast domain.
+Correct Answer: CEF
+Section: part 1
+Explanation
+Explanation/Reference:
+A错，不是通过物理上组合，而是逻辑上的
+B错，应该是增加广播域的数量
+C一个更高的层次网络安全可以实现,以分离的敏感数据从其他网络。正确
+D thanks to 802.1Q trunks不正确
+E正确 ，logical是逻辑的意思
+F正确
+G错误，描述的是VTP的作用而不是vlan的作用
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 34
+Which three statements accurately describe layer 2 Ethernet switches?(choose three)
+A.
+B.
+C.
+D.
+
+Microsegmentation decreases the number of collisions on the network.
+if a switch receives a frame for an unkown destination,it uses ARP to resolve the address.
+Spanning Tree Protocol allows switches to automatically share vlan information.
+In a properly functioning network with redundant switched paths,each switched aegment will contain
+one root bridge with all its ports in the forwarding state.All other switches in that broadcast domain will
+have only one root port.
+E. Establishing vlans increases the number of broadcast domains.
+F. Switches that are configured with vlans make forwarding decisions based on both layer 2 and layer 3
+address information.
+Correct Answer: ADE
+Section: part 1
+Explanation
+Explanation/Reference:
+A为分割减少冲突的数量，这里是冲突并不是冲突域，正确
+
+B收到未知目的帧会产生泛洪
+C这是vtp的特性，不是stp的
+D在一个能够正常运行的网络冗余交换路径，每一个交换网段将包括一个跟桥。所有端口都在转发状态，其
+他本广播域的交换机有一个根端口。正确
+E.VLAN增加了广播域。正确
+F vlan使转发基于二层和三层IP。题目要求对2层交换机的描述，二层交换机不能基于3层IP转发
+QUESTION 35
+Which two correctly describe steps in the OSI data encapsulation process? (Choose two.)
+A. The transport layer divides a data stream into segments and may add reliability and flow control
+information.
+B. The data link layer adds physical source and destination addresses and an FCS to the segment.
+C. Packets are created when the network layer encapsulates a frame with source and destination host
+addresses and protocol-related control information.
+D. Packets are created when the network layer adds Layer 3 addresses and control information to a
+segment.
+E. The presentation layer translates bits into voltages for transmission across the physical link.
+Correct Answer: AD
+Section: part 1
+Explanation
+Explanation/Reference:
+传输层将数据分段，并且加入flow control等信息。在网络层就将数据进行打包，并加上ip包头，链路层。将
+包进行成Frame，封装二层头部
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 36
+Which of the following describes the roles of devices in a WAN? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+A CSU/DSU terminates a digital local loop
+A modem terminates a digital local loop
+A CSU/DSU terminates an analog local loop
+A modem terminates an analog local loop
+A router is commonly considered a DTE device
+A router is commonly considered a DCE device
+
+Correct Answer: ADE
+Section: part 1
+Explanation
+Explanation/Reference:
+SU/DSU是用于连接终端和数字专线的设备，属于DCE设备
+modem用于数字信号和模拟信号的转换，属于DCE设备
+路由器一般是DTE设备
+DTE和DCE的区别;
+DCE是数据通信设备，如MODEM，连接DTE设备的通信设备。一般广域网常用的DCE设备有：CSU/DSU,
+广域网交换机，MODEM。
+DTE,DCE的之间的区别是DCE一方提供时钟，DTE不提供时钟，但它依靠DCE提供的时钟工作，比如PC机
+和MODEM之间。数据传输通常是经过DTE-DCE，再经过DCE-DTE的路径。其实对于标准的串行端口，通
+常从外观就能判断是DTE还是DCE，DTE是针头（俗称公头),DCE是孔头，（俗称母头），这样两种接口才
+能接再一起。
+ROUTER之间用串口的时候一般无所谓哪头是DCE，哪头是DTE。有的是默认规定好的，比如modem永远
+是DCE，与其相连的电信程控交换机则为DCE，配的时候DCE不设置clock rate的话，无法通信。
+QUESTION 37
+
+Which interface counter can you use to diagnose a duplex mismatch problem?
+A. no earner
+
+B. late collisions
+C. giants
+D. CRC errors
+E. deferred
+F. runts
+Correct Answer: B
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 38
+
+Which feature can you implement to reserve bandwidth for VoIP calls across the call
+path?
+A. PQ
+B. CBWFQ
+C. round robin
+D. RSVP
+Correct Answer: D
+Section: part 1
+Explanation
+Explanation/Reference:
+
+When implemented on all nodes in the path, RSVP guarantees bandwidth for the call
+along the entire path for the entire duration of the call. This is the only technique
+that achieves this level of accuracy.
+QUESTION 39
+When an interface is configured with PortFast BPDU guard, how does the interface respond when it
+receives a BPDU?
+A.
+B.
+C.
+D.
+
+It continues operating normally.
+It goes into a down/down state.
+It becomes the root bridge for the configured VLAN.
+It goes into an errdisable state.
+
+Correct Answer: D
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 40
+What are three characteristics of the TCP protocol? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+It uses a single SYN-ACK message to establish a connection.
+The connection is established before data is transmitted.
+It ensures that all data is transmitted and received by the remote device.
+It supports significantly higher transmission speeds than UDP.
+It requires applications to determine when data packets must be retransmitted.
+It uses separate SYN and ACK messages to establish a connection.
+
+Correct Answer: BCF
+Section: part 1
+Explanation
+Explanation/Reference:
+
+QUESTION 41
+Which command can you enter to determine whether serial interface 0/2/0 has been configured using
+HDLC encapsulation?
+A.
+B.
+C.
+D.
+
+router#show platform
+router#show interfaces Serial 0/2/0
+router#show ip interface s0/2/0
+router#show ip interface brief
+
+Correct Answer: B
+Section: part 1
+Explanation
+Explanation/Reference:
+
+QUESTION 42
+Which two statements about IPv4 multicast traffic are true? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+It burdens the source host without affecting remote hosts.
+It uses a minimum amount of network bandwidth.
+It is bandwidth-intensive.
+It simultaneously delivers multiple streams of data.
+It is the most efficient way to deliver data to multiple receivers.
+
+Correct Answer: DE
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 43
+What are two benefits of private IPv4 IP addresses? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+They are routed the same as public IP addresses.
+They are less costly than public IP addresses.
+They can be assigned to devices without Internet connections.
+They eliminate the necessity for NAT policies.
+They eliminate duplicate IP conflicts.
+
+Correct Answer: BC
+Section: part 1
+
+Explanation
+Explanation/Reference:
+-----------鸿鹄论坛：http://bbs.hh010.com/
+QUESTION 44
+What is the authoritative source for an address lookup?
+A.
+B.
+C.
+D.
+
+a recursive DNS search
+the operating system cache
+the ISP local cache
+the browser cache
+
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 45
+Which command can you enter to verify that a BGP connection to a remote device is established?
+A.
+B.
+C.
+D.
+
+show ip bgp summary
+show ip community-list
+show ip bgp paths
+show ip route
+
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 46
+
+During which phase of PPPoE is PPP authentication performed?
+A. the PPP Session phase
+B. Phase 2
+C. the Active Discovery phase
+D. the Authentication phase
+E. Phase 1
+Correct Answer: A
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 47
+Which three circumstances can cause a GRE tunnel to be in an up/down state? (Choose three.)
+A.
+B.
+C.
+D.
+
+The tunnel interface IP address is misconfigured.
+The tunnel interface is down.
+A valid route to the destination address is missing from the routing table.
+The tunnel address is routed through the tunnel itself.
+
+E. The ISP is blocking the traffic.
+F. An ACL is blocking the outbound traffic.
+Correct Answer: BCD
+Section: part 1
+Explanation
+Explanation/Reference:
+-----------鸿鹄论坛：http://bbs.hh010.com/
+QUESTION 48
+Which two statements about using leased lines for your WAN infrastructure are true? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+Leased lines provide inexpensive WAN access.
+Leased lines with sufficient bandwidth can avoid latency between endpoints.
+Leased lines require little installation and maintenance expertise.
+Leased lines provide highly flexible bandwidth scaling.
+Multiple leased lines can share a router interface.
+Leased lines support up to T1 link speeds.
+
+Correct Answer: CD
+Section: part 1
+Explanation
+Explanation/Reference:
+
+QUESTION 49
+
+Which two statements about wireless LAN controllers are true? (Choose two.)
+A. They can simplify the management and deployment of wireless LANs.
+B. They rely on external firewalls for WLAN security.
+C. They are best suited to smaller wireless networks.
+D. They must be configured through a GUI over HTTP or HTTPS.
+E. They can manage mobility policies at a systemwide level.
+Correct Answer: AE
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 50
+
+Which two statements about northbound and southbound APIs are true? (Choose two.)
+A. Only southbound APIs allow program control of the network.
+B. Only northbound APIs allow program control of the network.
+C. Only southbound API interfaces use a Service Abstraction Layer.
+D. Only northbound API interfaces use a Service Abstraction Layer.
+E. Both northbound and southbound API interfaces use a Service Abstraction Layer.
+
+F. Both northbound and southbound APIs allow program control of the network.
+Correct Answer: BC
+Section: part 1
+Explanation
+Explanation/Reference:
+QUESTION 51
+Which statement about RADIUS security is true?
+A.
+B.
+C.
+D.
+
+It supports EAP authentication for connecting to wireless networks.
+It provides encrypted multiprotocol support.
+Device-administration packets are encrypted in their entirety.
+It ensures that user activity is fully anonymous.
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+-----------鸿鹄论坛：http://bbs.hh010.com/
+QUESTION 52
+If you are configuring syslog messages specifying `logging trap warning', which log messages will the
+router send?
+A.
+B.
+C.
+D.
+E.
+
+0-4
+0-5
+0-6
+0-2
+0-1
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+0 emergencies System is unusable
+1 alerts Immediate action is needed
+2 critical Critical conditions exist
+3 errors Error conditions exist
+4 warnings Warning conditions exist
+5 notification Normal, but significant, conditions exist
+6 informational Informational messages
+7 debugging Debugging messages
+QUESTION 53
+
+Which command can you enter to configure an IPV6 floating static route?
+A.
+B.
+C.
+D.
+
+Router(config)# ipv6 route FE80:0202::/32 serail 0/1 201
+Router(config)# ipv6 route::/0 serail0/1
+Router(config)# ipv6 route static resolve default
+Router(config)# ipv6 route FE80:0202::/32 serail 0/1 1
+
+Correct Answer: A
+Section: part 2
+Explanation
+
+Explanation/Reference:
+QUESTION 54
+
+Which two statements about Ethernet standards are true?(choose two)
+A. Ethernet is defined by IEEE standard 802.2
+B. Ethernet is defined by IEEE standard 802.3
+C. Ethernet 10BASE-T dose not support full-duplex.
+D. When an Ethernet network uses CSMA/CD ,it terminates transmission as soon as
+
+collision occurs
+
+E. When an Ethernet network uses CSMA/CA ,it terminates transmission as soon as
+
+collision occurs
+
+Correct Answer: BD
+Section: part 2
+Explanation
+Explanation/Reference:
+http://www.ieee802.org/3/
+CSMA/CD - It uses a carrier sensing scheme in which a transmitting station detects collisions by sensing
+transmissions from other stations while transmitting a frame. When this collision condition is detected, the
+station stops transmitting that frame.
+QUESTION 55
+
+Which function does IP SLA ICMP ECHO operation perform to assist with
+troubleshooting ?
+A.
+B.
+C.
+D.
+E.
+
+packet-loss detection
+congestion detection
+hop-by-hop response time
+one way jitter measurement
+http://bbs.hh010.com/
+
+Correct Answer: C
+Section: part 2
+Explanation
+Explanation/Reference:
+IP SLA generates ICMP traffic and measures Round Trip Delay for entire path
+http://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipsla/configuration/15-mt/sla-15-mt-book/
+sla_icmp_echo.html
+QUESTION 56
+What are types of IPv6 static routes? (Choose Three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+Recursive Static routes
+Directly connected static routes
+Fully specified static routes
+Dynamically specified static routes
+injected static routes
+Redistributed static routes
+
+Correct Answer: ABC
+Section: part 2
+Explanation
+
+Explanation/Reference:
+
+QUESTION 57
+How to configure RIPv2? (Choose Two.)
+A.
+B.
+C.
+D.
+E.
+
+Enable RIP
+Connect RIP to WAN interface
+Enable no auto-summary
+Enable authentication
+http://bbs.hh010.com/
+
+Correct Answer: AC
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 58
+What is the status of port-channel if LACP is misconfigured?
+A.
+B.
+C.
+D.
+
+Forwarding
+Enabled
+Disabled
+errdisabled
+
+Correct Answer: D
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 59
+What is true about DTP? (Choose Three.)
+A.
+B.
+C.
+D.
+E.
+
+Layer 2 protocol
+Layer 3 protocol
+Proprietary protocol
+enabled by default
+disabled by default
+
+Correct Answer: ACD
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 60
+How to create a trunk port and allow VLAN 20? (Choose Three.)
+A.
+B.
+C.
+D.
+E.
+
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 20
+switchport trunk native vlan 20
+http://bbs.hh010.com/
+
+Correct Answer: ABC
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 61
+What 8-bit field exists in IP packet for QoS?
+A.
+B.
+C.
+D.
+E.
+
+Tos Field
+DSCP
+IP Precedence
+Cos
+鸿鹄论坛
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 62
+What feature uses a random time to re-sent a frame?
+A.
+B.
+C.
+D.
+
+CSMA/CA
+http://bbs.hh010.com/
+http://bbs.hh010.com/
+CSMA/CD
+
+Correct Answer: D
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 63
+Which mode is compatible with Trunk, Access, and desirable ports?
+A.
+B.
+C.
+D.
+
+Trunk Ports
+Access Ports
+Dynamic Auto
+Dynamic Desirable
+
+Correct Answer: C
+Section: part 2
+Explanation
+
+Explanation/Reference:
+
+QUESTION 64
+If you configure syslog messages without specifying the logging trap level, which log messages will the
+router send?
+A.
+B.
+C.
+D.
+E.
+
+0-4
+0-5
+0-6
+0-2
+0-1
+
+Correct Answer: C
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 65
+
+Which command can you execute to set the user inactivity timer to 10 seconds?
+A. SW1(config-line)#exec-timeout 0 10
+B. SW1(config-line)#exec-timeout 10
+C. SW1(config-line)#absolute-timeout 0 10
+D. SW1(config-line)#absolute-timeout 10
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 66
+
+Which standards-based First Hop Redundancy Protocol is a Cisco supported alternative
+to Hot Standby Router Protocol?
+A. VRRP
+B. GLBP
+C. TFTP
+D. DHCP
+Correct Answer: A
+Section: part 2
+Explanation
+
+Explanation/Reference:
+QUESTION 67
+Two hosts are attached to a switch with the default configuration. Which statement about the configuration
+is true?
+A.
+B.
+C.
+D.
+
+IP routing must be enabled to allow the two hosts to communicate.
+The two hosts are in the same broadcast domain.
+The switch must be configured with a VLAN to allow the two hosts to communicate.
+Port security prevents the hosts from connecting to the switch.
+
+Correct Answer: B
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 68
+If a router has 3 hosts connected in one port and two other hosts connected in another port, how may
+broadcast domains are present on the router?
+A.
+B.
+C.
+D.
+
+5
+2
+3
+4
+
+Correct Answer: B
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 69
+What are three parts of an IPv6 global unicast address? (Choose three.)
+A.
+B.
+C.
+D.
+
+an interface ID that is used to identify the local host on the network
+an interface ID that is used to identify the local network for a particular host.
+a subnet ID that is used to identify networks inside of the local enterprise site
+a global routing prefix that is used to identify the network portion of the address that has been provided
+by an ISP
+E. a global routing prefix that is used to identify the portion of the network address provided by a local
+administrator
+Correct Answer: ACD
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 70
+You have been asked to come up with a subnet mask that will allow all three web servers to be on the
+
+same network while providing the max number of subnets.Which network address and subnet mask meet
+this requirement?
+A.
+B.
+C.
+D.
+E.
+
+192.168.252.8 255.255.255.248
+192.168.252.8 255.255.255.252
+192.168.252.16 255.255.255.240
+192.168.252.0 255.255.255.252
+192.168.252.16 255.255.255.252
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+需要3个有效地址，块大小最小为8，还要提供最大数量的子网，所以用最块大小8，掩码255.255.255.248
+QUESTION 71
+What parameter can be different on ports within an EtherChannel?
+A.
+B.
+C.
+D.
+
+speed
+DTP negotiation settings
+trunk encapsulation
+duplex
+
+Correct Answer: B
+Section: part 2
+Explanation
+Explanation/Reference:
+在EtherChannel中，端口上那一项参数可以配置不一样？
+QUESTION 72
+
+Which two statements about IPv6 router advertisement messages are true? (Choose
+two.)
+A. They use ICMPv6 type 134.
+B. The advertised prefix length must be 64 bits.
+C. The advertised prefix length must be 48 bits.
+D. They are sourced from the configured IPv6 interface address.
+E. Their destination is always the link-local address of the neighboring node.
+Correct Answer: AB
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 73
+
+Which spanning-tree protocol rides on top of another spanning-tree protocol?
+A. MSTP
+B. RSTP
+C. PVST+
+D. Mono Spanning Tree
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 74
+A network administrator needs to configure port security on a switch.which two statements are true?
+(choose two)
+A. The network administrator can apply port security to dynamic access ports
+B. The network administrator can configure static secure or sticky secure mac addresses in the voice
+vlan.
+C. The sticky learning feature allows the addition of dynamically learned addresses to the running
+configuration.
+D. The network administrator can apply port security to EtherChannels.
+E. When dynamic mac address learning is enabled on an interface,the switch can learn new addresses,up
+to the maximum defined.
+Correct Answer: CE
+Section: part 2
+Explanation
+Explanation/Reference:
+A.动态端口不能应用的端口安全
+B.in the vioce vlan不正确
+C.保存在running configuratin 正确
+D.EtherChannels 不能应用端口安全
+E自动学习mac地址可以学到所设置的最大数量，正确
+QUESTION 75
+
+Which switching method duplicates the first six bytes of a frame before making a
+switching decision?
+A. fragment-free switching
+B. store and-forward switching
+C. cut through switching
+D. ASIC switching
+Correct Answer: C
+Section: part 2
+Explanation
+Explanation/Reference:
+
+Cut and Through method has lowest latency. In this method Switch only read first six
+bytes from frame after the preamble. These six bytes are the destination address of
+frame. This is the fastest method of switching. This method also processes invalid
+frames. Only advantage of this method is speed.
+QUESTION 76
+
+Which logging command can enable administrators to correlate syslog messages with
+millisecond precision?
+A. no logging console
+B. logging buffered 4
+C. no logging monitor
+
+D. service timestamps log datetime msec
+E. logging host 10.2.0.21
+Correct Answer: D
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 77
+
+Which three statements about link-state routing are true? (Choose three.)
+A. Routes are updated when a change in topology occurs.
+B. Updates are sent to a multicast address by default.
+C. OSPF is a link-state protocol.
+D. Updates are sent to a broadcast address.
+E. RIP is a link-state protocol
+F. It uses split horizon.
+Correct Answer: ABC
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 78
+
+Which command can you enter to determine whether a switch is operating in trunking
+mode?
+A. show ip interface brief
+B. show vlan
+C. show interfaces
+D. show interface switchport
+Correct Answer: D
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 79
+
+Which command can you enter to view the ports that are assigned to VLAN 20?
+A. Switch#show vlan id 20
+B. Switch#show ip interface brief
+C. Switch#show interface vlan 20
+D. Switch#show ip interface vlan 20
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 80
+In which two formats can the IPv6 address fd15:0db8:0000:0000:0700:0003:400F:572B be written?
+(Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+fd15:0db8:0000:0000:700:3:400F:572B
+fd15::db8::700:3:400F:572B
+fd15:db8:0::700:3:4F:572B
+fd15:0db8::7:3:4F:572B
+fd15:db8::700:3:400F:572B
+
+Correct Answer: AE
+Section: part 2
+Explanation
+Explanation/Reference:
+-----------鸿鹄论坛：http://bbs.hh010.com/
+QUESTION 81
+Which function of the IP SLAs ICMP jitter operation can you use to determine whether a VoIP issue is
+caused by excessive end-to-end time?
+A.
+B.
+C.
+D.
+
+packet loss
+jitter
+successive packet loss
+round-trip time latency
+
+Correct Answer: D
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 82
+Refer to the exhibit. Which of these statements correctly describes the state of the switch once the boot
+process has been completed?
+
+A.
+B.
+C.
+D.
+
+As FastEthernet0/12 will be the last to come up, it will not be blocked by STP.
+Remote access management of this switch will not be possible without configuration change.
+More VLANs will need to be created for this switch.
+The switch will need a different IOS code in order to support VLANs and STP.
+
+Correct Answer: B
+Section: part 2
+Explanation
+Explanation/Reference:
+vlan 1关闭的是int vlan 1这个虚拟端口，关闭的并不是vlan 1，这个vlan也是无法关闭的。
+QUESTION 83
+Refer to the exhibit.The network administrator normally establishes a telnet session with the switch from
+host A.However,host A is unavailable.The administrator′s attempt to the switch from host B fails,but pings
+to the other two hosts are successful.what is the issue?
+
+A.
+B.
+C.
+D.
+E.
+
+Host B and the switch need to be in the same subnet.
+The switch needs and appropriate default gateway assigned.
+The switch interface connected to the router is down.
+Host B need to be assigned an IP address in vlan 1.
+The switch interfaces need the appropriate IP addresses assigned.
+
+Correct Answer: B
+Section: part 2
+Explanation
+Explanation/Reference:
+远程管理交换机需要在交换机上设置default gateway和vlan IP
+QUESTION 84
+Which condition does the err-disabled status indicate on an Ethernet interface?
+A.
+B.
+C.
+D.
+E.
+F.
+
+There is a duplex mismatch.
+The device at the other end of the connection is powered off.
+The serial interface is disabled.
+The interface is configured with the shutdown command.
+Port security has disabled the interface.
+The interface is fully functioning.
+
+Correct Answer: E
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 85
+Refer to the exhibit. All of the routers in the network are configured with the ip subnet-zero command.
+Which network addresses should be used for Link A and Network A? (Choose two.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Network A - 172.16.3.48/26
+Network A - 172.16.3.128/25
+Network A - 172.16.3.192/26
+Link A - 172.16.3.0/30
+Link A - 172.16.3.40/30
+Link A - 172.16.3.112/30
+
+Correct Answer: BD
+Section: part 2
+Explanation
+Explanation/Reference:
+配置了ip subnet-zero，可以使用全0网段。
+A：错误，120台主机，主机位至少为7位。
+B:正确，主机位32-25=7
+C：错误，主机位少于7位
+D：正确。因为使用了ip subnet-zero。
+E:错误，包含在172.16.3.32/27网段中
+F:错误，包换在172.16.3.96/27网段中。
+QUESTION 86
+Which type of device can be replaced by the use of subinterfaces for VLAN routing?
+A.
+B.
+C.
+D.
+
+Layer 2 bridge
+Layer 2 switch
+Layer 3 switch
+router
+
+Correct Answer: C
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 87
+Which statement about LLDP is true?
+
+A.
+B.
+C.
+D.
+
+It is a Cisco proprietary protocol
+It is configured in global configuration mode.
+The LLDP update frequency is a fixed value.
+It runs over the transport layer.
+
+Correct Answer: B
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 88
+If the primary root bridge experiences a power loss, which switch takes over?
+A.
+B.
+C.
+D.
+
+switch 0040.0ВС0.90C5
+switch 00E0.F90B.6BE3
+switch 0004.9A1A.C182
+switch 00E0.F726.3DC6
+
+Correct Answer: C
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 89
+A network administrator is troubleshooting an EIGRP problem on a router and needs to confirm the IP
+addresses of the devices with which the router
+has established adjacency. The retransmit interval and the queue counts for the adjacent routers also
+need to be checked. What command will display
+the required information?
+A.
+B.
+C.
+D.
+
+Router# show ip eigrp neighbors
+Router# show ip eigrp interfaces
+Router# show ip eigrp adjacency
+Router# show ip eigrp topology
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 90
+Which three statements about IPv6 prefixes are true? (Choose three.)
+A.
+B.
+C.
+D.
+
+FEC0::/10 is used for IPv6 broadcast.
+FC00::/7 is used in private networks.
+FE80::/8 is used for link-local unicast.
+FE80::/10 is used for link-local unicast.
+
+E. 2001::1/127 is used for loopback addresses.
+F. FF00::/8 is used for IPv6 multicast.
+Correct Answer: BDF
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 91
+Which command can you enter to display duplicate IP addresses that the DHCP server assigns?
+A.
+B.
+C.
+D.
+
+show ip dhcp conflict 10.0.2.12
+show ip dhcp database 10.0.2.12
+show ip dhcp server statistics
+show ip dhcp binding 10.0.2.12
+
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 92
+Refer to the topology shown in the exhibit. Which ports will be STP designated ports if all the links are
+operating at the same bandwidth? (Choose three.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Switch A - Fa0/0
+Switch A - Fa0/1
+Switch B - Fa0/0
+Switch B - Fa0/1
+Switch C - Fa0/0
+Switch C - Fa0/1
+
+Correct Answer: BCD
+Section: part 2
+Explanation
+
+Explanation/Reference:
+B的mac最小为根桥 ，B的俩端口为指定端口. A的F0/0和C的F0/0为根端口。A的mac较小，A的F0/1为指定
+端口，C的F0/1堵塞
+QUESTION 93
+
+The network administrator cannot to switch 1 over a telnet session,although the hosts attached to switch 1
+can ping the interface Fa0/0 of the router.Given the information in the graphic and assuming that the router
+and switch2 are configured properly,which of the following commands should be issued on switch 1 to
+correct this problem?
+A. Switch1(config)# i nterface fa0 /1
+Switch1(config-if)# ip address 192.168.24.3.255.255.255.0
+B. Switch1 (config)# interface fa0/1
+Switch1 (config-if)# switchport mode trunk
+C. Switch 1 (config)# i nterface fa0 /1
+Switch1 (config-if)# duplex full
+Switch1 (config-if)# speed 100
+D. Switch1 (config-if)# default-gateway 192.168.24.1
+E. Switch1 (config)# line con 0
+Switch1(config-line)# password cisco
+Switch1 (config-line)#login
+Correct Answer: D
+Section: part 2
+Explanation
+Explanation/Reference:
+
+QUESTION 94
+Refer to the exhibit. Each of these four switches has been configured with a hostname, as well as being
+configured to run RSTP. No other configuration changes have been made. Which three of these show the
+correct RSTP port roles for the indicated switches and interfaces? (Choose three.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+SwitchA, Fa0/2, designated
+SwitchA, Fa0/1, root
+SwitchB, Gi0/2, root
+SwitchB, Gi0/1, designated
+SwitchC, Fa0/2, root
+SwitchD, Gi0/2, root
+
+Correct Answer: ABF
+Section: part 2
+Explanation
+Explanation/Reference:
+如图，每个交换机都配置了主机名，也都运行了RSTP，在就没有做其他的配置了。下面哪三个选项正确的
+
+描述了RSTP的端口角色？
+考点分析：
+1.判断根桥，通过比较各个网桥的Mac地址，桥Mac地址最小的为根桥，所以根桥是C，根桥上的所有端口
+是指定端口。
+2.判断非根桥上的跟端口。在同一个交换机上，到根网桥的cost较小的那个端口会成为root port。所以
+SwitchA Fa0/1，SwitchD Gi0/2，SwitchB Gi0/1会成为相应交换机上的RP。
+3.判断每个网段上的指定端口。 SWA--SWB段：SWA的F0/2端口的cost为19，SWB的G0/2端口cost为4
++19=23，所以SWA的F0/2为指定端口。 SWB--SWD段：SWB的G0/1端口cost为19+19=38，SWD的G0/1
+端口cost为19，所以SWD的G0/1端口为指定端口。
+4.剩余SWB的G0/2端口既不是指定端口，又不是根端口，处于堵塞状态。
+注：100M链路cost为19.1000M链路cost为4.
+
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 95
+Which feature builds a FIB and an adjacency table to expedite packet forwarding?
+A.
+B.
+C.
+D.
+
+cut through
+fast switching
+process switching
+Cisco Express Forwarding
+
+Correct Answer: D
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 96
+Which command can you enter to verify that a 128-bit address is live and responding?
+A.
+B.
+C.
+D.
+
+traceroute
+telnet
+ping
+show ipv6
+
+Correct Answer: C
+Section: part 2
+Explanation
+
+Explanation/Reference:
+
+QUESTION 97
+What are two reasons that duplex mismatches can be difficult to diagnose? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+The interface displays a connected (up/up) state even when the duplex settings are mismatched.
+1-Gbps interfaces are full-duplex by default.
+Full-duplex interfaces use CSMA/CD logic, so mismatches may be disguised by collisions.
+The symptoms of a duplex mismatch may be intermittent.
+Autonegotiation is disabled.
+
+Correct Answer: AD
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 98
+Which condition indicates that service password-encryption is enabled?
+A.
+B.
+C.
+D.
+
+The local username password is in clear text in the configuration.
+The enable secret is in clear text in the configuration
+The local username password is encrypted in the configuration.
+The enable secret is encrypted in the configuration.
+
+Correct Answer: C
+Section: part 2
+Explanation
+Explanation/Reference:
+-----------鸿鹄论坛：http://bbs.hh010.com/
+QUESTION 99
+
+Which protocol advertises a virtual IP address to facilitate transparent failover of a Cisco
+routing device?
+A. FHRP
+B. DHCP
+C. RSMLT
+D. ESRP
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+QUESTION 100
+
+What is the correct routing match to reach 172.16.1.5/32?
+
+A. 172.16.1.0/26
+B. 172.16.1.0/25
+C. 172.16.1.0/24
+D. the default route
+Correct Answer: A
+Section: part 2
+Explanation
+Explanation/Reference:
+当多条路由符合，选择最长掩码的路由
+
+QUESTION 101
+Which layer in the OSI reference model is responsible for determining the availability of the receiving
+program and checking to see if enough resources exist for that communication?
+A.
+B.
+C.
+D.
+E.
+
+transport
+network
+presentation
+session
+application
+
+Correct Answer: E
+Section: part 3
+Explanation
+Explanation/Reference:
+OSI中那一层负责决定一个进程的可用性并查看是否有可用的资源分给该进程？
+考点分析：OSI七层参考模型中负责决定一个进程的可用性并查看是否有可用的资源分给该进程是第七层应
+用层
+QUESTION 102
+
+What is the purpose of the POST operation on a router?
+A. determine whether additional hardware has been added
+B. locate an IOS image for booting
+C. enable a TFTP server
+D. set the configuration register
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 103
+
+Which protocol is the Cisco proprietary implementation of FHRP?
+
+A. HSRP
+B. VRRP
+C. GLBP
+D. CARP
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 104
+Which characteristics are representative of a link-state routing protocol? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+provides common view of entire topology
+exchanges routing tables with neighbors
+calculates shortest path
+utilizes event-triggered updates
+utilizes frequent periodic updates
+
+Correct Answer: AD
+Section: part 3
+Explanation
+Explanation/Reference:
+链路状态路由协议有协议特点？
+A:提供查看拓扑的命令，正确。show ip ospf database
+B：邻居之间交换路由信息，错误。交换LSA
+C：计算最短路径。
+D：利用触发更新，正确
+E：利用周期更新，错误。
+QUESTION 105
+Which part of the PPPoE server configuration contains the information used to assign an IP address to a
+PPPoE client?
+A.
+B.
+C.
+D.
+
+virtual-template interface
+DHCP
+dialer interface
+AAA authentication
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 106
+Which three statements about RSTP are true?(choose three)
+A. RSTP significantly reduces topology reconverging time after a link failure.
+
+B.
+C.
+D.
+E.
+F.
+
+RSTP expends the STP port roles by adding the alternate and backup roles.
+RSTP port atates are blocking,discarding,learing,or forwarding.
+RSTP also uses the STP proprsal-agreement sequence.
+RSTP use the same timer-baseed process as STP on point-to-point links.
+RSTP provides a faster transition to the forwarding state on point-to-point links than STP does.
+
+Correct Answer: ABF
+Section: part 3
+Explanation
+Explanation/Reference:
+A能够减少汇聚时间
+B比STP增加了端口角色alternat和backup
+F在点到点链路提供比STP更快的传输和转发
+QUESTION 107
+What are two benefits of using NAT?(choose two)
+A.
+B.
+C.
+D.
+E.
+F.
+
+NAT protects network security because private networks are not advertised.
+NAT accelerates the routing process because no modifications are made on the packets.
+Dynamic NAT facilitates connections from the outside of the network.
+NAT facilitates end-to-end communication when IPsec is enable.
+NAT eliminates the need to re-address all host that require extemal access.
+NAT conserves addresses through host MAC-level multiplexing.
+
+Correct Answer: AE
+Section: part 3
+Explanation
+Explanation/Reference:
+E.NAT 消除了当需要外部链接时每个主机都需要一个不同IP地址
+QUESTION 108
+Which two commands correctly verify whether port security has been configured on port FastEthernet 0/12
+on a switch?(choose two)
+A.
+B.
+C.
+D.
+E.
+
+SW1#show swithport port-security interface FastEthernet 0/12
+SW1# show swithport port-secure interface FastEthernet 0/12
+SW1# show port-secure interface FastEthernet 0/12
+SW1#show running-config
+SW1#show port-security interface FastEthernet 0/12
+
+Correct Answer: DE
+Section: part 3
+Explanation
+Explanation/Reference:
+查看端口安全的配置命令
+QUESTION 109
+Refer to the exhibit. Give this output for SwitchC, what should the network administrator's next action be?
+
+A.
+B.
+C.
+D.
+
+Check the trunk encapsulation mode for SwitchC's fa0/1 port.
+Check the duplex mode for SwitchC's fa0/1 port.
+Check the duplex mode for SwitchA's fa0/2 port.
+Check the trunk encapsulation mode for SwitchA's fa0/2 port.
+
+Correct Answer: C
+Section: part 3
+Explanation
+Explanation/Reference:
+出现错误报文,可能是因为双工不匹配或者链路不稳定等因素造成的
+QUESTION 110
+Which statement is correct regarding the operation of DHCP?
+A.
+B.
+C.
+D.
+
+A DHCP client uses a ping to detect address conflicts.
+A DHCP server uses a gratuitous ARP to detect DHCP clients.
+A DHCP client uses a gratuitous ARP to detect a DHCP server.
+If an address conflict is detected, the address is removed from the pool and an administrator must
+resolve the conflict.
+E. If an address conflict is detected, the address removed from the pool for an amount of time
+configurable by the administrator.
+F. If an address conflict is detected, the address is removed from the pool and will not be reused until
+server is rebooted.
+Correct Answer: D
+Section: part 3
+Explanation
+Explanation/Reference:
+当两个主机用相同的IP地址时发生地址冲突，在这期间，DHCP检测到地址冲突，会把这个地址移出地址
+池。这个地址将不再分配，直到管理员解决冲突。此题答案应该选：D
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 111
+Which two statements about using the CHAP authentication mechanism in a PPP link are true?(choose
+two)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+CHAP uses a two-way handshake
+CHAP authentication periodically occurs after link establishment
+CHAP has no protection from playback attacks
+CHAP authentication is performed only upon link establishment
+CHAP uses a three-way handshake
+CHAP authentication passwords are sent in plaintext
+
+Correct Answer: BE
+Section: part 3
+Explanation
+Explanation/Reference:
+PAP是两次握手机制；CHAP通过3次握手，CHAP定期发出挑战，以确保远程节点有有效的密码，CHAP采
+用MD5加密算法，而PAP采用明文
+A.CHAP认证采用的是两次握手机制
+B.CHAP的认证是链路建立之后周期性发生的
+C.CHAP认证没有重放攻击的保护
+D.执行CHAP认证只是在链路建立的时候
+E.CHAP认证采用的三次握手机制
+F.CHAP认证的密码是采用明文的方式传输的
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 112
+Refer to the exhibit. Switch port FastEthernet 0/24 on AlSwitch1 will be used to create an IEEE 802.1Qcomplaint trunk to another switch. Based on the output shown, What is the reason the trunk does not form,
+even thought the proper cabling has been attached?
+
+A.
+B.
+C.
+D.
+E.
+
+VLANs have not been created yet.
+An IP address must be configured for the port.
+The port is currently configured for access mode.
+The correct encapsulation type has not been configured.
+The no shutdown command has not been entered for the port.
+
+Correct Answer: C
+Section: part 3
+
+Explanation
+Explanation/Reference:
+由图中知道接口配置为access模式。
+A：vlan没有创建，错误
+B：一个IP地址被配置在端口，错误。
+C：端口当前处于access模式,正确。
+D：没有配置正确的封装模式，错误。
+E：接口没有no shutdown，错误。
+QUESTION 113
+Refer to the exhibit. A junior network administrator was given the task of configuring port security on
+SwitchA to allow only PC_A to access the switched network through port fa0/1. If any other device is
+detected, the port is to drop frames from this device. The administrator configured the interface and tested
+it with successful pings from PC_A to RouterA, and then observes the output from these two show
+commands.
+Which two of these changes are necessary for SwitchA to meet the requirements? (Choose two.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Port security needs to be globally enabled.
+Port security needs to be enabled on the interface.
+Port security needs to be configured to shut down the interface in the event of a violation.
+Port security needs to be configured to allow only one learned MAC address.
+Port security interface counters need to be cleared before using the show command.
+The port security configuration needs to be saved to NVRAM before it can become active.
+
+Correct Answer: BD
+Section: part 3
+Explanation
+Explanation/Reference:
+
+题目大意是说在交换机A上端口f0/1上配置端口安全，目的是只允许 PC_A连接网络,其他设备连接上将被丢
+弃,并且PCA可以ping通RA,问在swa上必须改变的哪两个配置？
+考点分析：一般端口安全是在接口下配置的。如题，只允许PC_A连接交换机的Fa0/1口，所以应该限制接
+口所允许的最大MAC地址数为1，即答案为BD。
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 114
+
+Which three statements about static routing are true? (Choose three.)
+A. It uses consistent route determination
+B. It is best used for small-scale deployments.
+C. Routing is disrupted when links fail.
+D. It requires more resources than other routing methods.
+E. It is best used for large-scale deployments.
+F. Routers can use update messages to reroute when links fail.
+Correct Answer: ABC
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 115
+What are the address that will show at the show ip route if we configure the above statements? (Choose
+Three.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+10.0.0.0
+10.4.3.0
+172.15.4.0
+172.15.0.0
+192.168.4.0
+192.168.0.0
+
+Correct Answer: ADE
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 116
+Which feature facilitate the tagging of a specific VLAN?
+A. Routing
+B. Hairpinning
+C. Encapsulation
+
+D. Switching
+Correct Answer: C
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 117
+What does split horizon prevent?
+A.
+B.
+C.
+D.
+
+routing loops, link state
+routing loops, distance vector
+switching loops, STP
+switching loops, VTP
+
+Correct Answer: B
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 118
+Which value to use in HSRP protocol election process ?
+A.
+B.
+C.
+D.
+
+interface
+virtual IP address
+priority
+router ID
+
+Correct Answer: C
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 119
+
+which keyword enables an HSRP router to take the active role immediately when it
+comes online?
+A. preempt
+B. priority
+C. version
+D. IP address
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 120
+Which command is used to show the interface status of a router?
+A.
+B.
+C.
+D.
+
+show interface status
+show ip interface brief
+show ip route
+show interface
+
+Correct Answer: B
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 121
+Which of the following privilege level is the most secured?
+A.
+B.
+C.
+D.
+
+Level 0
+Level 1
+Level 15
+Level 16
+
+Correct Answer: C
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 122
+Which IPV6 feature is supported in IPV4 but is not commonly used?
+A.
+B.
+C.
+D.
+
+unicast
+multicast
+anycast
+broadcast
+
+Correct Answer: C
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 123
+Which two statements are true about IPv6 Unique Local Addresses? (Choose Two.)
+A.
+B.
+C.
+D.
+E.
+
+They are identical to IPv4 private addresses.
+They use the prefix FC00::/7
+They are defined by RFC 1884
+They use the prefix FEC0::/10
+They can be routed on the IPv6 global internet.
+
+Correct Answer: AB
+Section: part 3
+Explanation
+
+Explanation/Reference:
+
+QUESTION 124
+Which range represents the standard access list?
+A.
+B.
+C.
+D.
+
+99
+150
+299
+2000
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 125
+What to do when the router password was forgotten?
+A.
+B.
+C.
+D.
+
+use default password cisco to reset
+access router physically
+use ssl/vpn
+Type confreg 0x2142 at the rommon 1
+
+Correct Answer: D
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 126
+What is true about Cisco Discovery Protocol?
+A.
+B.
+C.
+D.
+
+it discovers the routers, switches and gateways.
+it is network layer protocol
+it is physical and data link layer protocol
+it is proprietary protocol
+
+Correct Answer: D
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 127
+Which of the following encrypts the traffic on a leased line?
+A.
+B.
+C.
+D.
+
+telnet
+ssh
+vtp
+vpn
+
+E. dmvpn
+Correct Answer: B
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 128
+How do you configure a hostname?
+A.
+B.
+C.
+D.
+
+Router(config)#hostname R1
+http://bbs.hh010.com/
+http://bbs.hh010.com/
+http://bbs.hh010.com/
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 129
+Which technology you will choose to connect multiple sites with secure connections?
+A.
+B.
+C.
+D.
+
+Point-to-point
+DMVPN
+vpn
+http://bbs.hh010.com/
+
+Correct Answer: B
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 130
+Refer to the exhibit.Switch-1 needs to send data to a host with a MAC address of 00b0.d056.efa4.What
+will Switch-1 do with this data?
+
+A.
+B.
+C.
+D.
+
+switch-1 will drop the data because it dose not have an entry for that MAC address
+switch-1 will flood the data out all of its port from which the data originated
+switch-1 will forward the data to its default gateway
+switch-1 will send an ARP request out all its ports except the port from which the data originated
+
+Correct Answer: B
+Section: part 3
+Explanation
+Explanation/Reference:
+答案：B　
+交换机根据收到数据帧中的源MAC地址建立该地址同交换机端口的映射，并将其写 入MAC地址表中。交换
+机将数据帧中的目的MAC地址同已建立的MAC地址表进行比较，以决定由哪个端口进行转发。如数据帧中
+的目的MAC地址不在MAC地址表中，则发生泛洪。泛洪（flooding） 交换机和网桥使用的一种数据流传递
+技术，将某个接口受到的数据流从除该核接口之外的所有接口发送出去。
+根据下图，Switch-1需要往一台MAC地址为00b0.d056.efa4的主机发数据，Switch-1会如何处理这些数据?
+A. Switch-1 will drop the data because it does not have an entry for that MAC address.(Switch-1会丢弃该
+数据，因为它没有该MAC地址条目)
+B. Switch-1 will flood the data out all of its ports except the port from which the data originated.(Switch-1会
+泛洪该数据到所有的接口，除了该数据的源接口)
+C. Switch-1 will send an ARP request out all its ports except the port from which the data originated.
+(Switch-1会发送ARP请求到所有的接口，除了该数据的源接口)
+D. Switch-1 will forward the data to its default gateway.(Switch-1会往默认网关发送该数据)
+QUESTION 131
+interface fa0/0
+ip address x.x.x.33 255.255.255.224
+router bgp XXX
+neighbor x.x.x.x remote as x.x.x.x
+You need to advertise the network of Int fa0/0.
+A.
+B.
+C.
+D.
+
+x.x.x.32 mask 255.255.255.224
+x.x.x.32 255.255.255.224
+x.x.x.32 mask 0.0.0.31
+x.x.x.33 mask 255.255.255.224
+
+Correct Answer: A
+Section: part 3
+
+Explanation
+Explanation/Reference:
+
+QUESTION 132
+What routing protocol use first-hand information?
+A.
+B.
+C.
+D.
+
+link-state
+distance-vector
+path-vector
+http://bbs.hh010.com/
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 133
+Refer to the exhibit. You have discovered that computers on the 192 168 10 0/24 network can ping their
+default gateway, but they cannot connect to any resources on a remote network. Which reason for the
+problem is most likely true?
+
+A.
+B.
+C.
+D.
+E.
+
+The 192.168.12 0/24 network is missing from OSPF.
+The OSPF process ID is incorrect
+The OSPF area number is incorrect.
+An ARP table entry is missing for 192.168.10.0.
+A VLAN number is incorrect for 192.168.10.0.
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 134
+What field is consist of 6 bytes in the field identification frame in IEEE 802.1Q?
+
+A.
+B.
+C.
+D.
+
+SA
+DA
+FCS
+http://bbs.hh010.com/
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 135
+What is new in HSRPv2?
+A.
+B.
+C.
+D.
+
+prempt
+a greater number in hsrp group field
+http://bbs.hh010.com/
+http://bbs.hh010.com/
+
+Correct Answer: B
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 136
+Which two statements about MPLS are true? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+It provides automatic authentication
+It can carry multiple protocols, including IPv4 and IPv6
+It encapsulates all traffic in an IPv4 header
+It uses labels to separate and foward customer traffic
+It tags customer traffic using 802.1q
+
+Correct Answer: BD
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 137
+A network engineer wants to allow a temporary entry for a remote user with a specific usename and
+password so that the user can access the entire network over the internet.which ACL can be used?
+A.
+B.
+C.
+D.
+
+reflexive
+extended
+standard
+dynamic
+
+Correct Answer: D
+Section: part 3
+Explanation
+Explanation/Reference:
+网络工程师想要允许一个临时站与一个特定的usename远程用户和密码,这样用户可以访问整个网络.which
+ACL可以使用?
+
+动态ACL
+
+We can use a dynamic access list to authenticate a remote user with a specific
+username
+and password. The authentication process is done by the router or a central access
+server
+such as a TACACS+ or RADIUS server.
+QUESTION 138
+
+Which command is necessary to permit SSH or Telnet access to a cisco switch that is
+otherwise configured for these vty line protocols?
+A. transport type all
+B. transport output all
+C. transport preferred all
+D. transport input all
+Correct Answer: D
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 139
+
+What should be part of a comprehensive network security plan?
+A. Allow users to develop their own approach to network security.
+B. Physically secure network equipment from potential access by unauthorized
+
+individuals
+C. Encourage users to use personal information in their passwords to minimize the
+likelihood of passwords being forgotten.
+D. Delay deployment of software patches and updates until their effect on end-user
+equipment is well known and widely reported
+E. Minimize network overhead by deactivating automatic antivirus client updates.
+Correct Answer: B
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 140
+
+Which two Cisco IOS commands, used in troubleshooting, can enable debug output to a
+remote location? (Choose two)
+A. no logging console
+B. logging host ip-address
+C. terminal monitor
+D. show logging | redirect flashioutput.txt
+E. snmp-server enable traps syslog
+Correct Answer: BC
+Section: part 3
+
+Explanation
+Explanation/Reference:
+QUESTION 141
+Which component of the Cisco SDN solution serves as the centralized management system?
+A.
+B.
+C.
+D.
+
+Cisco OpenDaylight
+Cisco ACI
+Cisco APIC
+Cisco IWAN
+
+Correct Answer: C
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 142
+Which command is used to build DHCP pool?
+A.
+B.
+C.
+D.
+
+ip dhcp pool DHCP
+ip dhcp conflict
+ip dhcp-server pool DHCP
+ip dhcp-client pool DHCP
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 143
+Which utility can you use to determine whether a switch can send echo requests and replies?
+A.
+B.
+C.
+D.
+
+ping
+traceroute
+ssh
+telnet
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 144
+What is the two benefits of DHCP snooping? (Choose two.)
+A. prevent static reservation
+B. prevent reservation
+
+C. prevent DHCP rogue server
+D. track users hosts on the network.
+Correct Answer: CD
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 145
+What are the three major components of cisco network virtualization? (Choose Three.)
+A.
+B.
+C.
+D.
+
+network access control
+path isolation
+virtual network services
+policy enforcement
+
+Correct Answer: ABC
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 146
+Which feature is config by setting a variance that is at least 2 times the metric?
+A.
+B.
+C.
+D.
+
+unequal cost load balancing
+path selection
+equal cost load balancing
+path count
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 147
+Standard industrialized protocol of etherchannel?
+A.
+B.
+C.
+D.
+
+LACP
+PAGP
+PRP
+REP
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 148
+Which two options are features of the extended ping command? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+It can send a specific number of packet
+It can send packet from specified interface of IP address
+It can resolve the destination host name
+It can ping multiple host at the same time
+it can count the number of hops to the remote host.
+
+Correct Answer: AB
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 149
+What command is used to configure a switch as authoritative NTP server ?
+A.
+B.
+C.
+D.
+
+switch(config)#ntp master 3
+switch(config)#ntp peer 193.168.2.2
+switch(config)#ntp server 193.168.2.2
+switch(config)#ntp source 193.168.2.2
+
+Correct Answer: A
+Section: part 3
+Explanation
+Explanation/Reference:
+
+QUESTION 150
+Which two statements about syslog loging are true?(Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+Syslog logging is disabled by default
+Messages are stored in the internal memory of device
+Messages can be erased when device reboots
+Messages are stored external to the device
+The size of the log file is dependenet on the resources of the device
+
+Correct Answer: BC
+Section: part 3
+Explanation
+Explanation/Reference:
+QUESTION 151
+How to enable vlans automatically across multiple switches?
+A.
+B.
+C.
+D.
+
+Configure VLAN
+Confiture NTP
+Configure each VLAN
+Configure VTP
+
+Correct Answer: D
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 152
+Which password types are encrypted?
+A.
+B.
+C.
+D.
+
+SSH
+Telnet
+enable secret
+enable password
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 153
+
+Which option describes a benefit of a point-to-point leased line ?
+A.
+B.
+C.
+D.
+
+Low cost
+Full-mesh capability
+Flexibillity of design
+Simply of configuration
+
+Correct Answer: D
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 154
+What is the binary pattern of unique ipv6 unique local address?
+A.
+B.
+C.
+D.
+
+00000000
+11111100
+11111111
+11111101
+
+Correct Answer: B
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 155
+Which statemnet about ACLs is true?
+A. An ACL have must at least one permit action, else it just blocks all traffic.
+B. ACLs go bottom-up through the entries looking for a match
+C. An ACL has a an implicit permit at the end of ACL.
+
+D. ACLs will check the packet against all entries looking for a match.
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 156
+What is the cause of the Syslog output messages?
+
+A. The EIGRP neighbor on Fa0/1 went down due to a failed link.
+B. The EIGRP neighbor connected to Fa0/1 is participating in a different EIGRP process, causing the
+adjacency to go down.
+C. A shut command was executed on interface Fa0/1, causing the EIGRP adjacency to go down.
+D. Interface Fa0/1 has become error disabled, causing the EIGRP adjacency to go down.
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+-----------鸿鹄论坛：http://bbs.hh010.com/
+QUESTION 157
+What are contained in layer 2 ethernet frame? (Choose Three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+Preamble
+TTL
+Type/length
+Frame check sequence
+version
+http://bbs.hh010.com/
+
+Correct Answer: ACD
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 158
+Describe the best way to troubleshoot and isolate a network problem?
+A.
+B.
+C.
+D.
+
+Create an action plan
+Implement an action plan
+Gather facts
+Change on variable at a time
+
+Correct Answer: C
+Section: part 4
+Explanation
+
+Explanation/Reference:
+
+QUESTION 159
+Under normal operations, cisco recommends that you configure switch ports on which vlan?
+A.
+B.
+C.
+D.
+
+on the default vlan
+on the management vlan
+on the native vlan
+on any vlan except the default vlan
+
+Correct Answer: D
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 160
+Which DTP switch port mode allows the port to create a trunk link if the neighboring port is in trunk mode,
+dynamic desirable mode, or desirable or auto mode?
+A.
+B.
+C.
+D.
+
+Dynamic Auto
+Dynamic Desirable
+Access
+Trunk
+
+Correct Answer: B
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 161
+In which byte of an IP packet can traffic be marked ?
+A.
+B.
+C.
+D.
+
+the QoS byte
+the CoS byte
+the ToS byte
+the DSCP byte
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 162
+
+Which command can you enter to route all traffic that is destined for 192.168.0.0/20 to a
+specific interface?
+A. router(config)#ip route 192.168.0.0 255.255.240.0 GigabitEthernet0/1
+
+B. router(config)#ip route 0.0.0.0 255.255.255.0 GigabitEthernet0/1
+C. router(config)#ip route 0.0.0.0 0.0.0.0 GigabitEthernet0/1
+D. router(config)#ip route 192.168.0.0 255.255.255.0 GigabitEthernet0/1
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 163
+Which two protocol can detect native vlan mismatch errors? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+CDP
+VTP
+DTP
+STP
+PAGP
+
+Correct Answer: AD
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 164
+Which three options are switchport config that can always avoid duplex mismatch error between the
+switches?
+(Choose Three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+set both side on auto-negotation
+set both sides on half-duplex
+set one side auto and other side half-duplex
+set both side of connection to full-duplex
+set one side auto and other side on full-duplex
+set one side full-duplex and other side half-duplex
+
+Correct Answer: ABD
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 165
+What are two benefits of Private IPv4 Addresses? (Choose two.)
+A.
+B.
+C.
+D.
+
+they can be implemented without requiring admin to coordinate with IANA
+they are managed by IANA
+increase the flexibility of network design
+provide network isloation from the internet
+
+E. they are routable over internet
+Correct Answer: AD
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 166
+How many bits represent network id in a IPv6 address?
+A.
+B.
+C.
+D.
+
+32
+48
+64
+128
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 167
+Which WAN topology is most appropriate for a centrally located server farm with several satellite
+branches?
+A.
+B.
+C.
+D.
+
+star
+hub and spoke
+point-to-point
+full mesh
+
+Correct Answer: B
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 168
+Which function allows EIGRP peers to receive notice of implementing topology changes?
+A.
+B.
+C.
+D.
+
+successors
+advertised changes
+goodbye messages
+expiration of the hold timer
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 169
+If you configure syslog messages without specifying the logging trap level, which log messages will the
+router send?
+A.
+B.
+C.
+D.
+E.
+
+informational messages only
+warning and error conditions only
+normal but significant conditions only
+error conditions only
+all levels except debugging
+
+Correct Answer: E
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 170
+Which three options are benefits of using TACACS+ on a device? (Choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+It ensures that user activity is untraceable
+It provides a secure accounting facility on the device.
+device-administration packets are encrypted in their entirely.
+It allows the user to remotely access devices from other vendors.
+It allows the users to be authenticated against a remote server.
+It supports access-level authorization for commands.
+
+Correct Answer: CEF
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 171
+What layer of the OSI Model is included in TCP/IP Model's INTERNET layer?
+A.
+B.
+C.
+D.
+E.
+
+Application
+Session
+Data Link
+Presentation
+Network
+
+Correct Answer: E
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 172
+Which two of these are characteristics of the 802.1Q protocol?(choose two)
+A. it is a layer 2 messaging protocol which maintains vlan configurations across network.
+B. it includes an 8-bit field which specifies the priority of a frame.
+C. it is used exclusively for tagging vlan frames and dose not address network reconvergence following
+switched network topology changes.
+D. it modifies the 802.3 frame header,and thus requires that the FCS be recomputed.
+
+E. it is a trunking protocol capable of carring untagged frames.
+Correct Answer: DE
+Section: part 4
+Explanation
+Explanation/Reference:
+A描述的是vtp的特性
+B应该是3bit
+Cexclusively是唯一的意思。802.1Q不是唯一的
+D修改帧的头部，需要重新进行FCS校验，正确
+E是一个trunk协议并支持不打标记的帧，正确
+QUESTION 173
+
+Which two features can dynamically assign IPv6 addresses? (Choose two.)
+A. IPv6 stateless autoconfiguration
+B. DHCP
+C. NHRP
+D. IPv6 stateful autoconfiguration
+E. ISATAP tunneling
+Correct Answer: AD
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 174
+A security administrator wants to profile endpoints and gain visibility into attempted authentications. Which
+802.1x mode allows these actions?
+A.
+B.
+C.
+D.
+
+Monitor mode
+High-Security mode
+Low-impact mode
+Closed mode
+
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 175
+How to verify SSH connections was secured?
+A.
+B.
+C.
+D.
+
+ssh -v 1 -l admin IP
+ssh -v 2 -l admin IP
+ssh -l admin IP
+http://bbs.hh010.com/
+
+Correct Answer: B
+
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 176
+How many usable host are there per subnet if you have the address of 192.168.10.0 with a subnet mask of
+255.255.255.240?
+A.
+B.
+C.
+D.
+
+4
+8
+16
+14
+
+Correct Answer: D
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 177
+Which type of cable must you use to connect two device with MDI interfaces ?
+A.
+B.
+C.
+D.
+
+cut-through
+straight-through
+crossover
+rollover
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 178
+which command is used to know the duplex speed of serial link?
+A.
+B.
+C.
+D.
+
+show line
+show interface
+show protocol
+show run
+
+Correct Answer: B
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 179
+Which three statements about HSRP operation are true? (Choose three.)
+A.
+B.
+C.
+D.
+
+The virtual IP address and virtual address are active on the HSRP Master router.
+The HSRP default timers are a 3 second hello interval and a 10 second dead interval.
+HSRP supports only clear-text authentication.
+The HSRP virtual IP address must be on a different subnet than the routers' interfaces on the same
+
+LAN.
+E. The HSRP virtual IP address must be the same as one of the router's interface addresses on the LAN.
+F. HSRP supports up to 255 groups per interface, enabling an administrative form of load balancing
+Correct Answer: ABF
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 180
+
+Which two options describe benefits of aggregated chassis technology? (Choose two.)
+A. It requires only three IP addresses per VLAN.
+B. It supports HSRP, VRRP, and GLBP.
+C. It requires only one IP address per VLAN.
+D. It reduces management overhead.
+E. It supports redundant configuration files.
+F. Switches can be located anywhere regardless of their physical distance from one anot
+
+her.
+
+Correct Answer: CD
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 181
+When troubleshooting client DNS issues, which two task must you perform? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+Ping a public website IP address.
+Ping the DNS Server.
+Determine whether a DHCP address has been assigned.
+Determine whether the hardware address is correct.
+Determine whether the name servers have been configured
+
+Correct Answer: BE
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 182
+
+Which utility can you use to identify the cause of a traffic-flow blockage between two
+devices in a network?
+
+A.
+B.
+C.
+D.
+
+The ACL path analysis tool in Cisco APIC-EM
+The ACL trace tool in Cisco APIC-EM
+The Cisco APIC-EM automation scheduler.
+The Cisco IWAN application.
+
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 183
+
+which function does traffic shaping perform?
+A. it bufers and queues excess packets
+B. it drops packets to control the output rate
+C. it buffers traffic without queuing it
+D. it queues traffic without buffering it
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 184
+
+Which two statements about extended traceroute command are true?(choose two)
+A.
+B.
+C.
+D.
+E.
+
+it can send packets from a specified interface or ip address
+it can use a specified TTL value
+it can validate the reply data
+it can use a specificed TOS
+it can repeated automatically to a specified interval
+
+Correct Answer: AB
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 185
+
+A BPDU guard is configured on an interface that has PortFast Enable. Which state
+does the interface enter when it recives a BPDU ?
+A.
+B.
+C.
+D.
+
+Blocking
+Shutdown
+Listening
+Errdisable
+
+Correct Answer: D
+
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 186
+
+Which statement about SNMPv2 is true ?
+A.
+B.
+C.
+D.
+
+Its privacy algorithms use MD5 encryption by default.
+it requires passwords to be encrypyed
+Its authetication and privacy algorithms are enable without default values.
+It requires passwords at least eight characters en length.
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 187
+
+which type of IP address of ipv6 that also exist in IPv4 but barely used?
+A.
+B.
+C.
+D.
+
+unicast
+multicast
+anycast
+broadcast
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 188
+
+Which symptom most commonly indicates that two connecting interface are configured
+with a duplex mismatch?
+A.
+B.
+C.
+D.
+
+an interface with up/down state
+an interface with down/down state
+late collisions on the interface
+the spanning tree process shutting down
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 189
+
+How Eigrp for ipv6 configuration done? ( choose two)
+A. uses process number
+B. neighbor configured directly
+C. configured driectly on interface
+
+D. configured globally interface
+E. have shutdown feature
+Correct Answer: CE
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 190
+
+Which VTP mode prevents you from making changes to vlans?
+A.
+B.
+C.
+D.
+
+Server
+Client
+Transparent
+Off
+
+Correct Answer: B
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 191
+
+Which mode are in PAgP? (choose two)
+A.
+B.
+C.
+D.
+E.
+
+Auto
+Desirable
+Active
+Passive
+On
+
+Correct Answer: AB
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 192
+In an Ethernet network, under what two scenarios can devices transmit? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+when they receive a special token
+when there is a carrier
+when they detect no other devices are sending
+when the medium is idle
+when the server grants access
+
+Correct Answer: CD
+Section: part 4
+Explanation
+
+Explanation/Reference:
+QUESTION 193
+
+Which two protocols are used by bridges and/or switches to prevent loops in a
+layer 2 network? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+802.1d
+VTP
+802.1q
+SAP
+STP
+
+Correct Answer: AE
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 194
+At which layer of the OSI model dose PPP perform?
+A.
+B.
+C.
+D.
+
+Layer 3
+Layer 4
+Layer 2
+Layer 5
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 195
+Which are three reasons that an organization with multiple branch offices and roaming users might
+implement a Cisco VPN solution instead of point-to-point WAN links?(choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+reduced cost
+better throughput
+increased security
+scalability
+reduced latency
+broadband incompatibility
+
+Correct Answer: ACD
+Section: part 4
+Explanation
+Explanation/Reference:
+答案：A C D. VPN英文全称是“Virtual Private Network”，翻译过来就是“虚拟专用网络”。vpn被定义为通过
+一个公用网络（通常是因特网）建立一个临时的、安全的连接，是一条穿过混乱的公用网络的安全、稳定隧
+道。
+特点：
+
+1.安全保障　　
+2.服务质量保证（QoS）
+3.可扩充性和灵活性
+4.可管理性
+A 节约成本
+C 增强安全性
+D 易扩展
+B提高吞吐量---感觉应该是P2P的优点
+E减少潜在因素
+F带宽 不是很有关系
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 196
+
+Which IPv6 header field is equivalent to the TTL?
+A. Hop Limit
+B. Flow Label
+C. TTD
+D. Hop Count
+E. Scan Timer
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 197
+
+which port security mode can assist with troubleshooting by keeping count of violations?
+A.
+B.
+C.
+D.
+
+access
+protect
+restrict
+shutdown
+
+Correct Answer: C
+Section: part 4
+Explanation
+Explanation/Reference:
+
+QUESTION 198
+Which two options are requirements for configuring RIPv2 on the IPv4 network router? (choose two)
+A.
+B.
+C.
+D.
+E.
+
+enabling RIP authentication
+connecting RIP to a WAN Interface
+enabling auto route sumamrization
+allowing unicast updates for RIP
+enabling RIP on the router
+
+Correct Answer: DE
+Section: part 4
+
+Explanation
+Explanation/Reference:
+QUESTION 199
+which configuration command can you apply to a hsrp router so that its local interface becomes active if all
+other routers in
+the group fail?
+A.
+B.
+C.
+D.
+
+no additional config is required
+standby 1 track ethernet
+standby 1 preempt
+standby 1 priority 250
+
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+QUESTION 200
+
+which statement about EIGRP on IPv6 device is true?
+A.
+B.
+C.
+D.
+
+It is configured directly on the interface
+The configuration uses secondary IP address
+The configuration uses process numbers
+The neighbors of each device are directly configured
+
+Correct Answer: A
+Section: part 4
+Explanation
+Explanation/Reference:
+http://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/113267eigrp-ipv6-00.html
+QUESTION 201
+
+which command can you enter to troubleshoot the failure of address assignment ?
+A.
+B.
+C.
+D.
+
+show ip dhcp database
+show ip dhcp pool
+show ip dhcp import
+show ip dhcp server statistics
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 202
+
+which three technical services support cloud computing ?
+A. network-monitored power sources
+B. layer 3 network routing
+C. ip localization
+
+D. redundant connections
+E. VPN connectivity
+F. extended SAN services
+Correct Answer: DEF
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 203
+
+which two steps must you perform to enbale router-on-stick on a switch ?(choose two)
+A.
+B.
+C.
+D.
+E.
+
+connect the router to a trunk port
+config the subint number exactly the same as the matching VLAN
+config full duplex
+cofigure an ip route to the vlan destn net
+assign the access port to the vlan
+
+Correct Answer: AE
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 204
+
+which address prefix does OSPFv3 use when multiple IPv6 address are configured on a
+single interface ?
+A.
+B.
+C.
+D.
+
+all prefix on the interface
+the prefix that the administrator configure for OSPFv3 use
+the lowest prefix on the interface
+the highest prefix on the interface
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 205
+
+which IP configuration does the CIDR notation 192.168.1.1/25 refer?
+A.
+B.
+C.
+D.
+E.
+
+192.168.1.1 255.255.255.64
+192.168.1.1 255.255.255.1
+192.168.1.1 255.255.255.32
+192.168.1.1 255.255.255.128
+192.168.1.1 255.255.255.256
+
+Correct Answer: D
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 206
+
+Which option is the correct CIDR notation for 192.168.0.0 subnet 255.255.255.252 ?
+A.
+B.
+C.
+D.
+
+30
+31
+32
+33
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 207
+Which two of these statements regarding RSTP are correct? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+RSTP cannot operate with PVST+.
+RSTP defines new port roles.
+RSTP defines no new port states.
+RSTP is a proprietary implementation of IEEE 802.1D STP.
+RSTP is compatible with the original IEEE 802.1D STP.
+
+Correct Answer: BE
+Section: part 5
+Explanation
+Explanation/Reference:
+RSTP定义了新的端口类型，包括隔离端口，备份端口等，rstp如果与stp同时存在的话。那么将兼容成stp
+QUESTION 208
+
+What is known as one-to-nearest addressing in IPv6?
+A.
+B.
+C.
+D.
+
+global unicast
+anycast
+multicast
+unspecified address
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 209
+
+Which path does a router choose when it receives a packet with multiple possible paths
+
+to the destination over
+different routing protocols?
+A.
+B.
+C.
+D.
+
+the path with both the lowest administrative distance and the highest metric
+the path with the lowest administrative distance
+the path with the lowest metric
+the path with both the lowest administrative distance and lowest metric
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+http://www.ciscopress.com/articles/article.asp?p=2180208&seqNum=9
+QUESTION 210
+
+Requirement to configure DHCP binding ( choose two)
+A.
+B.
+C.
+D.
+
+DHCP pool
+ip address
+Hardware address
+http://bbs.hh010.com
+
+Correct Answer: BC
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 211
+
+how to see dhcp conflict?
+A.
+B.
+C.
+D.
+
+show ip dhcp pool
+show dhcp database
+show ip dhcp conflict
+http://bbs.hh010.com/
+
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 212
+
+Which Cisco platform can verify ACLs?
+A.
+B.
+C.
+D.
+
+Cisco Prime Infrastructure
+Cisco Wireless LAN Controller
+Cisco APIC-EM
+Cisco IOS-XE
+
+Correct Answer: C
+
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 213
+
+Which type of mac address is aged automatically by the switch?
+A.
+B.
+C.
+D.
+
+Dynamic
+Static
+automatic
+manual
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 214
+
+Which major component of the network virtualization architecture isolate users according
+to policy?
+A.
+B.
+C.
+D.
+
+policy enforcement
+access control
+network services virtualization
+Path Isolation.
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 215
+
+Which two statements about firewalls are true ?
+A.
+B.
+C.
+D.
+E.
+
+They can be used with an intrusion prevention system
+They can limit unauthorized user access to protect data
+Each wireless access point requires its own firewall
+They must be placed only at locations where the private network connects to the internet
+They can prevent attacks from the internet only
+
+Correct Answer: AB
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 216
+
+Which two statements about data VLANs on access ports are true ? ( Choose two)
+A.
+B.
+C.
+D.
+E.
+
+They can be configured as trunk ports
+Two or more VLANs can be configured on the interface
+802.1Q encapsulation must be configured on the interface
+Exactly one VLAN can be configured on the interface.
+They can be configured as host ports.
+
+Correct Answer: DE
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 217
+
+Where does the configuration reside when a helper address is configured to support
+DHCP ?
+A.
+B.
+C.
+D.
+
+on the switch trunk interface.
+on the router closest to the client.
+on the router closest to the server.
+on every router along the path.
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 218
+
+How does NAT overloading provide one-to-many address translation?
+A.
+B.
+C.
+D.
+
+It uses a pool of addresses
+It converts IPV4 addresses to unused IPv6 Addresses
+It assigns a unique TCP/UDP port to each session
+It uses virtual MAC Address and Virtual IP Addresses
+
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 219
+
+Which three options are types of Layer 2 network attack ? (Choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+Spoofing attacks
+Vlan Hopping
+botnet attacks
+DDOS attacks
+ARP Attacks
+Brute force attacks
+
+Correct Answer: ABE
+
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 220
+How many broadcast domains are shown in the graphic assuming only the default vlan is configured on
+the switches?
+
+A.
+B.
+C.
+D.
+
+one
+six
+twelve
+two
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+一个vlan为一个广播域，图中有两个交换机，但是只有一个默认的vlan，所以只有一个广播域
+QUESTION 221
+
+Afar you apply the given configuration to R1, you notice that it failed to enable OSPF
+Which action can you take to correct the problem?
+
+A.
+B.
+C.
+D.
+
+Configure a loopback interface on R1
+Enable IPv6 unicast routing on R1.
+Configure an IPv4 address on interface F0/0.
+Configure an autonomous system number on OSPF.
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 222
+
+What does split-horizon do?
+A.
+B.
+C.
+D.
+
+Prevent routing loop in distance vector protocol
+Prevent switching loop in distance vector protocol
+Prevent switching loop in link-state protocol
+Prevent routing loop in link-state protocol
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 223
+Refer to the exhibit. Which three statements correctly describe Network Device A? (Choose three.)
+
+A. With a network wide mask of 255.255.255.128, each interface does not require an IP address.
+B. With a network wide mask of 255.255.255.128, each interface does require an IP address on a unique
+IP subnet.
+C. With a network wide mask of 255.255.255.0, must be a Layer 2 device for the PCs to communicate
+with each other.
+D. With a network wide mask of 255.255.255.0, must be a Layer 3 device for the PCs to communicate
+with each other.
+E. With a network wide mask of 255.255.254.0, each interface does not require an IP address.
+Correct Answer: BDE
+Section: part 5
+Explanation
+Explanation/Reference:
+如图，哪三个选项正确的描述了网络设备A？
+考点分析：这题考的是子网掩码的问题。使用掩码255.255.255.128和255.255.255.0时，两台主机的IP地址
+属于两个网段，所以A要用路由器（三层设备）才能通信，所以A设备每个接口需要设置IP地址。使用掩码
+255.255.254.0是，两台主机属于同一个网段，所以A要使用switch或hub就能通信，且不需要ip地址
+
+QUESTION 224
+Refer to the exhibit. At the end of an RSTP election process, which access layer switch port will assume
+the discarding role?
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Switch3, port fa0/1
+Switch3, port fa0/12
+Switch4, port fa0/11
+Switch4, port fa0/2
+Switch3, port Gi0/1
+Switch3, port Gi0/2
+
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+SW1为跟桥，SW4会选择一个端口作为根端口，另一个堵塞。在两个端口cost相同的情况下，选择端口号
+小的为跟端口，端口号大的堵塞。
+QUESTION 225
+Refer to the exhibit. Why is flash memory erased prior to upgrading the IOS image from the TFTP server?
+
+A.
+B.
+C.
+D.
+
+The router cannot verify that the Cisco IOS image currently in flash is valid
+Flash memory on Cisco routers can contain only a single IOS image.
+Erasing current flash content is requested during the copy dialog.
+In order for the router to use the new image as the default, it must be the only IOS image in flash.
+
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 226
+Refer to the exhibit. The network shown in the diagram is experiencing connectivity problems. Which of the
+following will correct the problems? (Choose two.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Configure the gateway on Host A as 10.1.1.1.
+Configure the gateway on Host B as 10.1.2.254.
+Configure the IP address of Host A as 10.1.2.2.
+Configure the IP address of Host B as 10.1.2.2.
+Configure the masks on both hosts to be 255.255.255.224.
+Configure the masks on both hosts to be 255.255.255.240.
+
+Correct Answer: BD
+Section: part 5
+Explanation
+Explanation/Reference:
+考查VLSM。网关和主机IP需在同一个子网。路由器子接口IP为这个vlan中主机的网关
+QUESTION 227
+Which statement about vlan operation on cisco catalyst switches is true?
+A. when a packet is received from an 802.1Q trunk,the vlan id can be determined from the source MAC
+address table.
+B. unkown unicast frames are retransmitted only to the ports that belong to the same vlan
+C. ports between switches should be configured in access mode so that vlans can span across the ports
+D. broadcast and multicast frames are retransmitted to ports that are configured on different vlan
+Correct Answer: B
+Section: part 5
+
+Explanation
+Explanation/Reference:
+A通过源mac地址确定vlan，不正确
+B未知单播帧只在本vlan传播，正确
+C交换机之间应该设置为trunk
+Dvlan能分割广播域，广播不能跨vlan传输
+QUESTION 228
+When a router is unable to find a known route in the routing table,how dose it handle the pacet?
+A.
+B.
+C.
+D.
+
+It sends the packet to the next hop address
+It sends the packet to the gateway of last resort
+It discards the packet
+It sends the packet over the route with the best metric
+
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 229
+For what two purposes does the Ethernet protocol use physical addresses? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+to uniquely identify devices at Layer 2
+to allow communication with devices on a different network
+to differentiate a Layer 2 frame from a Layer 3 packet
+to establish a priority system to determine which device gets to transmit first
+to allow communication between different devices on the same network
+to allow detection of a remote device when its physical address is unknown
+
+Correct Answer: AE
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 230
+Which command can you enter to display the operational status of the network ports on a router?
+A.
+B.
+C.
+D.
+
+show interface switchport
+show ip interface brief
+show running-config interface fastethernet 0/1
+show interface status
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 231
+Refer to the graphic. R1 is unable to establish an OSPF neighbor relationship with R3. What are possible
+reasons for this problem? (Choose two.)
+
+A. All of the routers need to be configured for backbone Area 1.
+B. R1 and R2 are the DR and BDR, so OSPF will not establish neighbor adjacency with R3.
+C. A static route has been configured from R1 to R3 and prevents the neighbor adjacency from being
+established.
+D. The hello and dead interval timers are not set to the same values on R1 and R3.
+E. EIGRP is also configured on these routers with a lower administrative distance.
+F. R1 and R3 are configured in different areas.
+Correct Answer: DF
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 232
+Which switch would STP choose to become the root bridge in the selection process?
+A.
+B.
+C.
+D.
+
+32768: 11-22-33-44-55-66
+32768: 22-33-44-55-66-77
+32769: 11-22-33-44-55-65
+32769: 22-33-44-55-66-78
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+stp选举跟桥首先比较优先级大小.然后比较mac地址大小
+QUESTION 233
+Refer to exhibit. Which command can you enter to verify link speed and duplex setting on the interface?
+
+A. router# show protocols
+B. router#show startup-config
+C. router#show line
+
+D. router#show interface gig0/1
+Correct Answer: D
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 234
+Which IEEE mechanism is responsible for the authentication of devices when they attempt to connect to
+a local network?
+A.
+B.
+C.
+D.
+
+802.1x
+802.11
+802.2x
+802.3x
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 235
+If router R1 knows a static route to a destination network and then learns about the same destination
+network through a dynamic routing protocol, how does R1 respond?
+A.
+B.
+C.
+D.
+
+It refuses to advertise the dynamic route to other neighbors
+It sends a withdrawal signal to the neighboring router
+It disables the routing protocol
+It prefers the static route
+
+Correct Answer: D
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 236
+Which two statements about floating static routes are true? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+They are routes to the exact /32 destination address
+They are used when a route to the destination network is missing
+They have a higher administrative distance than the default static route administrative distance
+They are used as back-up routes when the primary route goes down
+They are dynamic routes that are learned from a server
+
+Correct Answer: CD
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 237
+When you enable PortFast on a switch port, the port immediately transitions to which state?
+
+A.
+B.
+C.
+D.
+
+Blocking
+Forwarding
+Learning
+Listening
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 238
+Refer to the exhibit. If R1 receives a packet destined to 172.16.1.1, to which IP address does it send the
+packet?
+
+A.
+B.
+C.
+D.
+
+192.168.14.4
+192.168.12.2
+192.168.13.3
+192.168.15.5
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 239
+
+What is the danger of the permit any entry in a NAT access list?
+A. It can lead to overloaded resources on the router
+B. It can cause too many addresses to be assigned to the same interface.
+C. It can disable the overload command.
+D. It prevents the correct translation of IP addresses on the inside network.
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 240
+How does a DHCP server dynamically assign IP addresses to hosts?
+A. Addresses are permanently assigned so that the host uses the same address at all times
+B. Addresses are assigned for a fixed period of time. At the end of the period, a new request for an
+address must be made, and another address is then assigned.
+C. Addresses are leased to hosts. A host will usually keep the same address by periodically contacting the
+DHCP server to renew the lease.
+D. Addresses are allocated after a negotiation between the server and the host to determine the length of
+the agreement.
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+在DHCP租约期限一半时，DHCP客户端会提交租约续订请求到DHCP服务器。如果DHCP服务器在联机状
+态，那么通常DHCP服务器会接受续订，然后租约周期重新开始。如果DHCP服务器不可用那么DHCP客户
+端会在剩余一半的租约周期过去后尝试再次续订DHCP租约。如果在租约时间的87.5%过去后DHCP服务器
+仍然不可用，DHCP客户端会尝试寻找一个新的DHCP服务器，并可能获取一个不同的IP地址。
+QUESTION 241
+Which command can you enter to determine the addresses that have been assigned on a DHCP
+Server?
+A.
+B.
+C.
+D.
+
+show ip DHCP statistic
+show ip dhcp pool
+show ip dhcp binding
+show ip dhcp database
+
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 242
+Refer to the exhibit.What two results would occur if the hub were to be replaced with a switch that is
+configured with one Ethernet VLAN?(choose two)
+
+A.
+B.
+C.
+D.
+E.
+
+The number of collision domains would decrease.
+The number of collision domains would increase.
+The number of broadcast domains would remain the same.
+The number of collision domains would remain the same.
+The number of broadcast domains would increase.
+
+Correct Answer: BC
+Section: part 5
+Explanation
+Explanation/Reference:
+hub不可以隔离冲突域，所有端口同一个冲突域中 ， 交换机可以隔离冲突域，每个端口在不同冲突域中，
+故换成交换机冲突域个数会增加，大小会减小，而hub 交换机都不可隔离广播域 所有端口都在同一个广播
+域中，故广播域数量不变
+A 冲突域数量减少
+B 冲突域数量增加
+C 广播域数量不变
+D 冲突域数量不变
+E 广播域数量增加
+QUESTION 243
+Refer to the exhibit, you determine that Computer A cannot ping Computer
+Which reason for the problem is most likely true?
+
+A.
+B.
+C.
+D.
+
+The Subnet mask for Computer A is incorrect
+The default gateway address for Computer A is incorrect
+The subnet mask for computer B is incorrect.
+The default gateway address for computer B is incorrect
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 244
+Which effect of the passive-interface command on R1 is true?
+
+A.
+B.
+C.
+D.
+
+It prevents interface Fa0/0 from sending updates.
+Interface Fa 0/0 operates in RIPv1 mode.
+It removes the 172.16.0.0 network from all updates on all interfaces on R1.
+It removes the 172.16.0.0 network from all updates on all interfaces on R1.
+
+Correct Answer: A
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 245
+Which three encapsulation layers in the OSI model are combined into the TCP/IP application layer?
+(Choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+Session
+transport
+presentation
+application
+data-link
+network
+
+Correct Answer: ACD
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 246
+When is the most appropriate time to escalate an issue that you troubleshooting?
+A.
+B.
+C.
+D.
+
+When you lack the proper to resolve the issue.
+When a more urgent issue that requires your intervention is detected
+When you have gathered all information about an issue
+When you have been unable to resolve the issue after 30 min
+
+Correct Answer: C
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 247
+Which two command can you enter to display the current time sources statistics on devices ? (Choose
+two)
+A.
+B.
+C.
+D.
+E.
+
+Show ntp associations.
+Show clock details
+Show clock.
+Show time.
+Show ntp status
+
+Correct Answer: AE
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 248
+Which address class includes network 191.168.0.1/27?
+
+A.
+B.
+C.
+D.
+
+Class C
+Class B
+Class D
+Class A
+
+Correct Answer: B
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 249
+On which type of port can switches interconnect for multi-VLAN communication?
+A.
+B.
+C.
+D.
+
+interface port
+access port
+switch port
+trunk port
+
+Correct Answer: D
+Section: part 5
+Explanation
+Explanation/Reference:
+QUESTION 250
+Refer to the exhibit. If R1 sends traffic to 192.168.101.45 the traffic is sent through which interface?
+
+A.
+B.
+C.
+D.
+
+FastEthernet0/1
+FastEthernet0/0
+FastEthernet1/0
+FastEthernet1/1
+
+Correct Answer: D
+Section: part 5
+Explanation
+Explanation/Reference:
+
+QUESTION 251
+How does a router handle an incoming packet whose destination network is missing from the Routing
+table?
+A.
+B.
+C.
+D.
+
+it discards the packet.
+it broadcasts the packet to each network on the router.
+it routes the packet to the default route.
+it broadcasts the packet to each interface on the router
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 252
+Which IPV6 function serves the same purpose as ARP entry verification on an IPv4 network?
+A.
+B.
+C.
+D.
+
+interface ip address verification
+MAC address table verification
+neighbor discovery verification
+Routing table entry verification
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 253
+Which HSRP feature was new in HSRPv2?
+A.
+B.
+C.
+D.
+
+VLAN group numbers that are greater than 255
+Virtual MAC addresses
+tracking
+preemption
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 254
+When you troubleshoot an IPv4 connectivity issue on a router, which three router configuration checks you
+must perform?(choose three)
+A. Verify that the router interface IP address IP address is correct.
+B. Verify that the DNS is configured correctly.
+C. Verify that the router and the host use the same subnet mask.
+
+D. Verify that the router firmware is up-to-date.
+E. Verify that a default route is configured.
+F. Verify that the route appears in the Routing table
+Correct Answer: ACF
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 255
+Configuration of which option is required on a Cisco switch for the Cisco IP phone to work?
+A.
+B.
+C.
+D.
+
+PortFast on the interface
+the interface as an access port to allow the voice VLAN ID
+a voice VLAN ID in interface and global configuration mode
+Cisco Discovery Protocol in global configuration mode
+
+Correct Answer: B
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 256
+Which method does a connected trunk port use to tag VLAN traffic?
+A.
+B.
+C.
+D.
+
+IEEE 802 1w
+IEEE 802 1D
+IEEE 802 1Q
+IEEE 802 1p
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 257
+Which RFC was created to alleviate the depletion of IPv4 public addresses?
+A.
+B.
+C.
+D.
+
+RFC 4193
+RFC 1519
+RFC 1518
+RFC 1918
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 258
+What is the default lease time for a DHCP binding?
+
+A.
+B.
+C.
+D.
+
+24 hours
+12 hours
+48 hours
+36 hours
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 259
+Which NAT type is used to translate a single inside address to a single outside address?
+A.
+B.
+C.
+D.
+
+dynamic NAT
+NAT overload
+PAT
+static NAT
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 260
+Which network topology allows all traffic to flow through a central hub
+A.
+B.
+C.
+D.
+
+bus
+star
+mesh
+ring
+
+Correct Answer: B
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 261
+Which statement about a router on a stick is true?
+A. Its date plane router traffic for a single VI AN over two or more switches
+
+B. It uses multiple subinterfaces of a single interface to encapsulate traffic for different VLANs on the
+same
+subnet
+C. It requires the native VLAN to be disabled
+D. It uses multiple subinterfaces of a single interface to encapsulate traffic for different VLANs.
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 262
+By default, how many MAC addresses are permitted to be learned on a switch port with port security
+enabled?
+A.
+B.
+C.
+D.
+
+8
+2
+1
+0
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 263
+Which device allows users to connect to the network using a single or double radio?
+A.
+B.
+C.
+D.
+
+access point
+switch
+wireless controller
+firewall
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 264
+When enabled, which feature prevents routing protocols from sending hello messages on an interface?
+A.
+B.
+C.
+D.
+
+virtual links
+passive-interface
+directed neighbors
+OSPF areas
+
+Correct Answer: B
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 265
+Refer to the exhibit. Which statement describes the effect of this configuration?
+
+A.
+B.
+C.
+D.
+
+The VLAN 10 VTP configuration is displayed
+VLAN 10 spanning-tree output is displayed
+The VLAN 10 configuration is saved when the router exits VLAN configuration mode
+VLAN 10 is added to the VLAN database
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 266
+Which route source code represents the routing protocol with a default administrative distance of 90 in the
+routing table?
+A.
+B.
+C.
+D.
+E.
+
+S
+E
+D
+R
+O
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 267
+Which statement about native VLAN traffic is true?
+A.
+B.
+C.
+D.
+
+Cisco Discovery Protocol traffic travels on the native VLAN by default
+Traffic on the native VLAN is tagged with 1 by default
+Control plane traffic is blocked on the native VLAN.
+The native VLAN is typically disabled for security reasons
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 268
+
+Which statement about unicast frame forwarding on a switch is true?
+A. The TCAM table stores destination MAC addresses
+B. If the destination MAC address is unknown, the frame is flooded to every port that is configured in the
+same VLAN except on the port that it was received on.
+C. The CAM table is used to determine whether traffic is permitted or denied on a switch
+D. The source address is used to determine the switch port to which a frame is forwarded
+Correct Answer: B
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 269
+Which component of the routing table ranks routing protocols according to their preferences?
+A.
+B.
+C.
+D.
+
+administrative distance
+next hop
+metric
+routing protocol code
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 270
+
+Which two authentic methods are compatible with MLPPP on a serial Interface?(choose
+two)
+A. PEAP
+B. CHAP
+C. TACACS+
+D. PAP
+E. LEAP
+Correct Answer: BD
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 271
+
+What is the effect of the overload keyword in a static NAT translation configuration?
+
+A. It enables port address translation
+B. It enables the use of a secondary pool of IP addresses when the first pool is depleted.
+C. It enables the inside interface to receive traffic.
+D. It enables the outside interface to forward traffic.
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 272
+
+Which two statements about VTP are true? (Choose two.)
+A. All switches must be configured with the same VTP domain name
+B. All switches must be configured to perform trunk negotiation.
+C. All switches must be configured with a unique VTP domain name
+D. The VTP server must have the highest revision number in the domain
+E. All switches must use the same VTP version.
+Correct Answer: AD
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 273
+
+Refer to the exhibit. On R1 which routing protocol is in use on the route to
+192.168.10.1?
+A. RIP
+
+B. OSPF
+C. IGRP
+D. EIGRP
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 274
+
+Which two options are the best reasons to use an IPV4 private IP space?(choose two)
+A. to enable intra-enterprise communication
+B. to implement NAT
+C. to connect applications
+D. to conserve global address space
+E. to manage routing overhead
+Correct Answer: AD
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 275
+
+Refer to the exhibit. What switch proves the spanning-tree designated
+port role for the network segment that services the printers?
+
+A. Switch1
+B. Switch2
+C. Switch3
+D. Switch4
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+
+题目求哪一个交换机为打印机提供指定端口？
+由图可知S1 是根桥。指定端口是基于网段间选举的。
+S3--S4 之间S3 的BID 比S4 小，所以S3-S4 之间的指定端口在S3 上。
+QUESTION 276
+Assuming a subnet mask of 255.255.248.0, three of the following addresses are valid host addresses.
+Which are these addresses? (Choose three.)
+A.
+B.
+C.
+D.
+
+172.16.9.0
+172.16.8.0
+172.16.31.0
+172.16.20.0
+
+Correct Answer: ACD
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 277
+Which type does a port become when it receives the best BPDU on a bridge?
+A.
+B.
+C.
+D.
+
+The designated port
+The backup port
+The alternate port
+The root port
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 278
+Which value can you modify to configure a specific interface as the preferred forwarding interface?
+A.
+B.
+C.
+D.
+
+The interface number
+The port priority
+The VLAN priority
+The hello time
+
+Correct Answer: B
+Section: part 6
+Explanation
+
+Explanation/Reference:
+QUESTION 279
+Which statement about VLAN configuration is true?
+A.
+B.
+C.
+D.
+
+The switch must be in VTP server or transparent mode before you can configure a VLAN
+The switch must be in config-vlan mode before you configure an extended VLAN
+Dynamic inter-VLAN routing is supported on VLAN2 through VLAN 4064
+A switch in VTP transparent mode save the VLAN databases to the running configuration only
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 280
+In which two situations should you use out-of-band management?
+A.
+B.
+C.
+D.
+E.
+
+when a network device fails to forward packets
+when you require ROMMON access
+when management applications need concurrent access to the device
+when you require administrator access from multiple locations
+when the control plane fails to respond
+
+Correct Answer: AB
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 281
+Which command can you enter to configure a local username with an encrypted password and EXEC
+mode user privileges?
+A.
+B.
+C.
+D.
+
+Router(config)#username jdone privilege 1 password 7 08314D5D1A48
+Router(config)#username jdone privilege 1 password 7 PASSWORD1
+Router(config)#username jdone privilege 15 password 0 08314D5D1A48
+Router(config)#username jdone privilege 15 password 0 PASSWORD1
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 282
+What happens when an 802.11a node broadcasts within the range of an 802.11g access point?
+A. The access point transmits, but the node is unable to receive.
+B. A connection occurs
+
+C. Both the node and the access point are unable to transmit.
+D. The node transmits, but the access point is unable to receive.
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 283
+Which value is indicated by the next hop in a routing table?
+A.
+B.
+C.
+D.
+
+preference of the route source
+IP address of the remote router for forwarding the packets
+how the route was learned
+exit interface IP address for forwarding the packets
+
+Correct Answer: B
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 284
+Which statement about the inside interface configuration in a NAT deployment is true?
+A. It is defined globally
+B. It identifies the location of source addresses for outgoing packets to be translated using access or route
+maps.
+C. It must be configured if static NAT is used
+D. It identifies the public IP address that traffic will use to reach the internet
+Correct Answer: B
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 285
+Which option is the default switch port port-security violation mode?
+A.
+B.
+C.
+D.
+
+shutdown
+protect
+shutdown vlan
+restrict
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 286
+Which entity assigns IPv6 addresses to end users?
+A.
+B.
+C.
+D.
+
+ICANN
+APNIC
+RIR
+ISPs
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 287
+which value indicate the distance from the ntp authoritative time source?
+A.
+B.
+C.
+D.
+
+priority
+location
+layer
+stratum
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 288
+Which NTP type designates a router without an external reefrence clock as an authoritative time source?
+A.
+B.
+C.
+D.
+
+server
+peer
+master
+client
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 289
+Which 3 feature are represented by A letter in AAA? (Choose Three)
+A. authorization
+B. accounting
+
+C.
+D.
+E.
+F.
+
+authentication
+accountability
+accessibility
+authority
+
+Correct Answer: ABC
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 290
+When you deploy multilink PPP on your network, where must you configure the group IP Address on each
+device?
+A.
+B.
+C.
+D.
+
+in the global config
+Under serial interface
+Under the routing protocol
+Under the multilink interface
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 291
+What are two statement for SSH?
+A.
+B.
+C.
+D.
+E.
+
+use port 22
+unsecured
+encrypted
+most common remote-access method
+operate at transport
+
+Correct Answer: AC
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 292
+Host is able to ping a web server but it is not able to do HTTP request.
+A.
+B.
+C.
+D.
+E.
+
+ACL blocking port 23
+ACL blocking All ports
+ACL blocking port 80
+ACL blocking port 443
+None of the above
+
+Correct Answer: C
+
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 293
+Which NTP command configures the local devices as an NTP reference clock source?
+A.
+B.
+C.
+D.
+
+NTP Peer
+NTP Broadcast
+NTP Master
+NTP Server
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 294
+Which item represents the standard IP ACL?
+A.
+B.
+C.
+D.
+
+Access-list 110 permit any any
+Access-list 50 deny 192.168.1.1 0.0.0.255
+Access list 101 deny tvp any host 192.168.1.1
+Access-list 2500 deny tcp any host 192.168.1.1 eq 22
+
+Correct Answer: B
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 295
+Which statement about recovering a password on a Cisco router is true?
+A.
+B.
+C.
+D.
+
+The default reset password is cisco
+It requires a secure SSl/VPN connection
+A factory resset is required if you forget the password
+It requires physical access to the router
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 296
+Where information about untrusted hosts are stored?
+A.
+B.
+C.
+D.
+
+CAM table
+Trunk table
+MAC table
+binding database
+
+Correct Answer: D
+Section: part 6
+Explanation
+Explanation/Reference:
+Builds and maintains the DHCP snooping binding database, which contains information about untrusted
+hosts with leased IP addresses.
+QUESTION 297
+Which two options are primary responsibilities of the APlC-EM controller? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+lt automates network actions between different device types
+lt provides robust asset management.
+lt tracks license usage and Cisco lOS versions.
+lt automates network actions between legacy equipment.
+lt makes network functions programmable.
+
+Correct Answer: AE
+Section: part 6
+Explanation
+Explanation/Reference:
+
+QUESTION 298
+Which type of MAC address is aged automatically by the switch?
+A.
+B.
+C.
+D.
+
+automatic
+manual
+dynamic
+static
+
+Correct Answer: C
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 299
+Which two statements about TACACS+ are true? (Choose two.)
+A.
+B.
+C.
+D.
+
+lt can run on a UNlX server.
+lt authenticates against the user database on the local device.
+lt is more secure than AAA authentication.
+lt is enabled on Cisco routers by default.
+
+E. lt uses a managed database.
+Correct Answer: AE
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 300
+If three devices are plugged into one port on a switch and two devices are plugged into a different port,
+how many collision domains are on the switch?
+A.
+B.
+C.
+D.
+
+2
+4
+5
+6
+
+Correct Answer: A
+Section: part 6
+Explanation
+Explanation/Reference:
+QUESTION 301
+Which three commands must you enter to create a trunk that allows VLAN 20? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+Switch(config-if)#switchport mode dynamic auto
+Switch(config-if)#switchport mode trunk
+Switch(config-if)#switchport trunk allowed vlan 20
+Switch(config-if)#switchport mode dynamic desirable
+Switch(config-if)#switchport trunk encapsulation dotlq
+Switch(config-if)#switchport trunk native vlan 20
+
+Correct Answer: BCE
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 302
+Which two passwords must be supplied in order to connect by Telnet to a properly secured Cisco switch
+and make changes to the device configuration? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+tty password
+enable secret password
+vty password
+aux password
+console password
+username password
+
+Correct Answer: BC
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 303
+In order to comply with new auditing standards, a security administrator must be able to correlate
+system security alert logs directly with the employee who triggers the alert. Which of the following
+should the security administrator implement in order to meet this requirement?
+A.
+B.
+C.
+D.
+
+Access control lists on file servers
+Elimination of shared accounts
+Group-based privileges for accounts
+Periodic user account access reviews
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 304
+If you want multiple hosts on a network, where do you configure the setting?
+A.
+B.
+C.
+D.
+
+in the IP protocol
+in the multicast interface
+in the serial interface
+in the global configuration
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 305
+Which option is the benefit of implementing an intelligent DNS for a cloud computing solution?
+A.
+B.
+C.
+D.
+
+It reduces the need for a backup data center.
+It can redirect user requests to locations that are using fewer network resources.
+It enables the ISP to maintain DNS records automatically.
+It eliminates the need for a GSS.
+
+Correct Answer: B
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 306
+Which statement about the IP SLAs ICMP Echo operation is true?
+
+A.
+B.
+C.
+D.
+
+The frequency of the operation .s specified in milliseconds.
+It is used to identify the best source interface from which to send traffic.
+It is used to identify the best source interface from which to send traffic.
+It is used to determine the frequency of ICMP packets.
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 307
+Which action can change the order of entries in a named access-list?
+A.
+B.
+C.
+D.
+
+removing an entry
+opening the access-list in notepad
+adding an entry
+resequencing
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 308
+Which two components are used to identify a neighbor in a BGP configuration? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+autonomous system number
+version number
+router ID
+subnet mask
+IP address
+
+Correct Answer: AE
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 309
+Wich component of a routing table entry represents the subnet mask?
+A.
+B.
+C.
+D.
+
+Routing protocol code
+Prefix
+metric
+Network mask
+
+Correct Answer: D
+Section: part 7
+Explanation
+
+Explanation/Reference:
+QUESTION 310
+How can you disable DTP on a switch port?
+A.
+B.
+C.
+D.
+
+Configure the switch port as a trunk.
+Add an interface on the switch to a channel group.
+Change the operational mode to static access
+Change the administrative mode to access
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 311
+
+What are three components that comprise the SNMP framework? (Choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+MIB
+manager
+supervisor
+agent
+set
+AES
+
+Correct Answer: ABD
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 312
+
+Which technology can enable multiple VLANs to communicate with one another?
+A. inter-VLAN routing using a Layer 3 switch
+B. inter-VLAN routing using a Layer 2 switch
+C. intra-VLAN routing using router on a stick
+D. intra-VLAN routing using a Layer 3 switch
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 313
+Which command you enter on a switch to display the ip address associated with connected devices?
+
+A.
+B.
+C.
+D.
+
+Show cdp neighbors detail
+Show cdp neighbor
+Show cdp interface
+Show cdp traffic
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 314
+Which protocol is a Cisco proprietary implementation of STP?
+A.
+B.
+C.
+D.
+
+CST
+RSTP
+MSTP
+PVST+
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 315
+Which Type of ipv6 unicast ip address is reachable across the internet ?
+A.
+B.
+C.
+D.
+
+Unique Local
+Compatible
+Link local
+Globa
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 316
+.Refer to the exhibit . Which Command do you enter so that R1 advertises the loopback0 interface to the
+BGP Peers?
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Network 172.16.1.32 mask 255.255.255.224
+Network 172.16.1.0 0.0.0.255
+Network 172.16.1.32 255.255.255.224
+Network 172.16.1.33 mask 255.255.255.224
+Network 172.16.1.32 mask 0.0.0.31
+Network 172.16.1.32 0.0.0.31
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 317
+Which networking Technology is currently recognized as the standard for computer networking?
+A.
+B.
+C.
+D.
+
+System network architecture
+Transmission control protocol/Internet protocol
+Open system Interconnect
+Open network architecture
+
+Correct Answer: B
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 318
+Which two tasks does the Dynamic Host Configuration Protocol perform? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+Set the IP gateway to be used by the network
+Perform host discovery used DHCPDISCOVER message.
+Configure IP address parameters from DHCP server to a host.
+Provide an easy management of layer 3 devices.
+Monitor IP performance using the DHCP server.
+Assign and renew IP address from the default pool.
+
+Correct Answer: CF
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 319
+VLAN 3 is not yet configured on your switch.What happens if you set the switchport access vlan 3
+commmand interface configuration mode?
+A.
+B.
+C.
+D.
+
+The command is accepted and the respective VLAN is added to vlan dat.
+The command is rejected.
+The command is accepted and you must configure the VLAN manually.
+The port turns amber.
+
+Correct Answer: A
+Section: part 7
+
+Explanation
+Explanation/Reference:
+
+QUESTION 320
+which command is used to enable CHAP authentication whit PAP as the fallback method on a serial
+interface?
+A.
+B.
+C.
+D.
+
+(config-if)#authentication ppp chap fallback ppp
+(config-if)#authentication ppp chap pap
+(config-if)#ppp authentication chap pap
+(config-if)#ppp authentication chap fallback ppp
+
+Correct Answer: C
+Section: part 7
+Explanation
+Explanation/Reference:
+要求使用chap认证，pap认证作为备用
+QUESTION 321
+What is the effect of using the service password-encryption command?
+A.
+B.
+C.
+D.
+E.
+
+only passwords configured after the command has been entered will be encrypted.
+Only the enable password will be encrypted.
+Only the enable secret password will be encrypted
+It will encrypt the secret password and remove the enable secret password from the configuration.
+It will encrypt all current and future passwords.
+
+Correct Answer: E
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 322
+Which two are advantages of static routing when compared to dynamic routing?(choose two)
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+
+Security increases because only the network administrator may change the routing tables.
+Configuration complexity decreases as network size increases.
+Routing updates are automatically sent to neighbors.
+Route summarization iscompued automatically by the router.
+Routing traffic load is reduced when used in stub network links
+An efficient algorithm is used to build routing tables,using automatic updates.
+Routing tables adapt automatically to topology changes.
+
+Correct Answer: AE
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 323
+Which of the following are the valid numbers of standard ACL (choosse two)
+A.
+B.
+C.
+D.
+E.
+
+50
+1550
+150
+1250
+2050
+
+Correct Answer: AB
+Section: part 7
+Explanation
+Explanation/Reference:
+标准的ACL使用 1 ~ 99 以及1300~1999之间的数字作为表号，扩展的ACL使用 100 ~ 199以及2000~2699之
+间的数字作为表号。
+QUESTION 324
+Three switches are connected to one anther via trunk ports.Assuming the default switch
+configuration,which switch is elected as the root bridge for the spanning-tree instance of vlan 1?
+A.
+B.
+C.
+D.
+
+the switch with the lowest MAC address
+the switch with the higest MAC address
+the switch witch the higest IP address
+the switch with the lowest IP address
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+在运行STP协议的网络中选择根桥需要利用桥ID.
+桥ID由桥优先级（所有思科交换机上默认优先级为32768）和MAC地址组合来决定的。
+在网络中，桥ID最小的网桥成为根桥。
+桥ID=桥优先级+桥mac 越小越优先
+QUESTION 325
+Which command can be used from a PC to verify the connectivity between hosts that connect through a
+switch in the same LAN?
+A.
+B.
+C.
+D.
+
+ping address
+tracert address
+traceroute address
+arp address
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 326
+Refer to the exhibit. Which two statements are true about interVLAN routing in the topology that is shown
+in the exhibit? (Choose two.)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+Host E and host F use the same IP gateway address.
+Router1 and Switch2 should be connected via a crossover cable.
+Router1 will not play a role in communications between host A and host D.
+The FastEthernet 0/0 interface on Router1 must be configured with subinterfaces
+Router1 needs more LAN interfaces to accommodate the VLANs that are shown in the exhibit.
+The FastEthernet 0/0 interface on Router1 and Switch2 trunk ports must be configured using the same
+encapsulation type
+
+Correct Answer: DF
+Section: part 7
+Explanation
+Explanation/Reference:
+如下图，对于图中拓扑中vlan之间路由，那两个选项是正确的？
+考点分析：这道题考的是vlan间的路由，用的是单臂路由的拓扑模型。此拓扑模型是由路由器来完成vlan间
+数据流量的转发。如图，Route1不需要更多的Lan接口，它只需要在F0/0口上创建更多的子接口来完成对更
+多vlan的接入。所以E错误，这题的正确答案是D，F。
+在单臂路由的时候，首先路由器的接口要配置子接口针对每一个vlan一个逻辑接口，其次交换机的接口要配
+置trunk，并且封装要和路由器接口的封装一致
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 327
+What value is primarily used to determine which port becomes the root port on each nonroot switch in a
+spanning-tree topology?
+A.
+B.
+C.
+D.
+E.
+
+lowest port MAC address
+port priority number and MAC address.
+VTP revision number
+highest port priority number.
+path cost
+
+Correct Answer: E
+Section: part 7
+Explanation
+Explanation/Reference:
+此处为选举跟端口，先要比较到跟桥的cost。
+如果是选跟桥，先比较优先级
+QUESTION 328
+Which command enables RSTP on a switch?
+
+A.
+B.
+C.
+D.
+
+spanning-tree mode rapid-pvst
+spanning-tree uplinkfast
+spanning-tree backbonefast
+spanning-tree mode mst
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 329
+A switch is configured with all ports assigned to vlan 2 with full duplex FastEthernet to segment existing
+departmental traffic. What is the effect of adding switch ports to a new VLAN on the switch?
+A.
+B.
+C.
+D.
+
+More collision domains will be created.
+IP address utilization will be more efficient.
+More bandwidth will be required than was needed previously
+An additional broadcast domain will be created.
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+一个交换机把所有的端口以全双工的模式加到一个vlan里，把一个端口加入到一个新的vlan里会对此交换机
+产生什么影响？
+考点分析：这道题考的是vlan的概念。将一个交换的端口加入一个新vlan代表一个新的广播域产生了，因为
+vlan有隔离广播域的作用
+QUESTION 330
+Cisco Catalyst switches CAT1 and CAT2 have a connection between them using ports FA0/13. An 802.
+1Q trunk is configured between the two switches. On CAT1, VLAN 10 is chosen as native, but on CAT2
+the native VLAN is not specified.What will happen in this scenario?
+A.
+B.
+C.
+D.
+
+802.1Q giants frames could saturate the link.
+VLAN 10 on CAT1 and VLAN 1 on CAT2 will send untagged frames.
+A native VLAN mismatch error message will appear.
+VLAN 10 on CAT1 and VLAN 1 on CAT2 will send tagged frames.
+
+Correct Answer: C
+Section: part 7
+Explanation
+Explanation/Reference:
+交换机CAT1和CAT2通过F0/13端口连接， 交换机之间封装是的802.1q， 在VLAN10中本征VLAN被修改成
+CCNA 考试交流QQ群 :464609243
+
+了VLAN10,在CAT2上没有指定。这样配置就会出现什么情况?
+考点分析：这道题考的是Trunk。Trunk链路的封装要求两边的本征vlan相同，如果不同，会出现VLAN不匹
+配这个错误。
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 331
+
+Refer to the exhibit.All switch ports are assigned to the correct VLANs, but none of the hosts connected to
+SwitchA can
+communicate with hosts in the same VLAN connected to SwitchB. Based on the output shown, what is the
+most likely problem?
+A.
+B.
+C.
+D.
+E.
+
+The access link needs to be configured in multiple VLANs.
+The link between the switches is configured in the wrong VLAN.
+The link between the switches needs to be configured as a trunk.
+VTP is not configured to carry VLAN information between the switches.
+Switch IP addresses must be configured in order for traffic to be forwarded between the switches
+
+Correct Answer: C
+Section: part 7
+Explanation
+Explanation/Reference:
+由图中可知，两个交换机相连接的端口都是access，应该配置成trunk
+QUESTION 332
+What is the function of the command switchport trunk native vlan 999 on a switch?
+A.
+B.
+C.
+D.
+
+It designates VLAN 999 for untagged traffic
+It blocks VLAN 999 traffic from passing on the trunk.
+It creates a VLAN 999 interface.
+It designates VLAN 999 as the default for all unkown tagged traffic
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+设置vlan999为本征vlan，交换机默认本征vlan为vlan1.此题正确答案为A.
+本征VLAN（Native Vlan）分配给 802.1Q中继端口。802.1Q中继端口支持来自多个VLAN的流量（有标记
+
+流量），也支持来自VLAN以外的流量（无标记流量）。802.1Q中继端口会将无标记流量发送到本征
+VLAN。
+QUESTION 333
+Which parameter or parameters are used to calculate OSPF cost in cisco routers?
+A.
+B.
+C.
+D.
+
+Bandwidth,Delay,and MTU
+Bandwidth
+Bandwidth and MTU
+Bandwidth , MTU,Reliability,Delay,and Load
+
+Correct Answer: B
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 334
+Which command shows your active Telnet connections?
+A.
+B.
+C.
+D.
+
+show session
+show cdp neighbors
+show users
+show queue
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+The “show users” shows telnet/ssh connections to your router while “show sessions” shows telnet/ssh
+connections from your router (to other devices). The question asks about “your active Telnet connections”,
+meaning connections from your router so the answer should be A.
+QUESTION 335
+Refer to the exhibit.
+
+Based on the exhibited routing table, how will packets from a host within the 192.168.10.192/26 LAN be
+forwarded to 192.168.10.1?
+A.
+B.
+C.
+D.
+
+The router will forward packets from R3 to R2 to R1.
+The router will forward packets from R3 to R1 to R2.
+The router will forward packets from R3 to R2 to R1 AND from R3 to R1.
+The router will forward packets from R3 to R1.
+
+Correct Answer: C
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 336
+
+Refer to the exhibit.Which user-mode password has just been set?
+A. Telnet
+B. Auxiliary
+C. SSH
+D. Console
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 337
+
+Refer to the exhibit. Which rule does the DHCP server use when there is an IP address
+conflict?
+
+A. The address is removed from the pool until the conflict is resolved.
+B. The address remains in the pool until the conflict is resolved.
+C. Only the IP detected by Gratuitous ARP is removed from the pool.
+D. Only the IP detected by Ping is removed from the pool.
+E. The IP will be shown, even after the conflict is resolved.
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 338
+How is provided master redundancy on a stacked switches?
+A. 1:N
+
+B. N:1
+C. 1:1
+D. 1+N
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+http://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/
+prod_white_paper09186a00801b096a.html
+QUESTION 339
+
+Refer to the exhibit A frame on vlan 1on switch s1 is sent to switch s2 when the frame is
+received on vlan
+2,what causes this behavior?
+
+A.
+B.
+C.
+D.
+
+trunk mode mismatches
+vlans that do not correspond to a unique IP subnet
+native vlan mismatches
+allowing only vlan 2 on the destination.
+
+Correct Answer: C
+
+Section: part 7
+Explanation
+Explanation/Reference:
+两交换机本征vlan不一样，不能正常通信
+QUESTION 340
+
+Refer to the exhibit.Assuming that the entire network topology is shown, what is the operational status of
+the interfaces of R2
+as indicated by the command output shown?
+A.
+B.
+C.
+D.
+
+One interface has a problem.
+Two interfaces have problems.
+The interfaces are functioning correctly.
+The operational status of the interfaces cannot be determined from the output shown.
+
+Correct Answer: C
+Section: part 7
+Explanation
+Explanation/Reference:
+端口双UP，运行正常
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 341
+
+Why will a switch never learn a broadcast address?
+A. Broadcast frames are never sent to swiches.
+B. Broadcast addresses use an incorrect format for the switching table.
+C. A broadcast address will never be the source address of a frame.
+D. Broadcasts only use network layer addressing.
+E. A broadcast frame is never forwarded by a switch.
+Correct Answer: C
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 342
+
+Which definition of default route is true?
+A. A route that is manually configured.
+B. A route used when a destination route is missing.
+C. A route to the exact /32 destination address
+D. Dynamic route learned from the server.
+Correct Answer: B
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 343
+
+Which value must the device send as its username when using CHAP to authenticate
+with the remote peer site id:17604704
+over a PPP link?
+A. The automatically generated user name
+B. The local host name
+C. The user name defined by the administrator
+D. The host name of the remote device.
+Correct Answer: B
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 344
+What can you change to select switch as root bridge?
+A.
+B.
+C.
+D.
+
+make lower priority
+make higher priority
+make lower path cost
+make higher path cost
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 345
+Refer to exhibit. What Administrative distance has route to 192.168.10.1 ?
+
+A.
+B.
+C.
+D.
+
+1
+90
+110
+120
+
+Correct Answer: B
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 346
+Which statement about IPv6 link-local addresses is true ?
+A.
+B.
+C.
+D.
+
+They must be configured on all IPv6 interface
+They must be globally unique
+They must be manually configured
+They are advertised globally on the network
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 347
+Which configuration can be used with PAT to allow multiple inside address to be translated to a single
+outside address ?
+A.
+B.
+C.
+D.
+
+Dynamic Routing
+DNS
+Preempt
+overload
+
+Correct Answer: D
+Section: part 7
+Explanation
+Explanation/Reference:
+
+QUESTION 348
+Which two types of information are held in the MAC address table? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+MAC address
+soure IP address
+destination IP address
+Protocols
+Port numbers
+
+Correct Answer: AE
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 349
+Which command can you enter to create a NAT pool of 6 addresses?
+A.
+B.
+C.
+D.
+
+Router(config)#ip nat pool test 175.17.12.69 175.17.12.74 prefix-length 24
+Router(config)#ip nat pool test 175.17.12.69 175.17.13.74 prefix-length 16
+Router(config)#ip nat pool test 175.17.12.66 175.17.12.72 prefix-length 8
+Router(config)#ip nat pool test 175.17.12.69 175.17.12.76 prefix-length 8
+
+Correct Answer: A
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 350
+Which header field is new on IPv6?
+A.
+B.
+C.
+D.
+
+Version
+Hop Limit
+Flow Label
+Traffic Class
+
+Correct Answer: C
+Section: part 7
+Explanation
+Explanation/Reference:
+QUESTION 351
+
+Which value is used to determine the active router in an HSRP default configuration?
+A. Router loopback address
+B. Router IP address
+C. Router priority
+
+D. Router tracking number
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 352
+
+Which three are valid modes for a switch port used as a VLAN trunk? (choose three)
+A. Desirable
+B. Auto
+C. On
+D. Blocking
+E. Transparent
+F. Forwarding
+Correct Answer: ABC
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 353
+
+Which value must you configure on a device before EIGRP for IPv6 can start running?
+A. public IP address
+B. loopback interface
+C. router ID
+D. process ID
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 354
+
+Which type of attack can be mitigated by configuring the default native VLAN to be
+unused?
+A. CAM table overflow
+B. switch spoofing
+C. VLAN hopping
+D. MAC spoofing
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+
+QUESTION 355
+
+Refer to the exhibit. If R1 sends traffic to 192.168.10.45 the traffic is sent through which interface?
+A.
+B.
+C.
+D.
+
+FastEthernet0/1
+FastEthernet0/0
+FastEthernet1/0
+FastEthernet1/1
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 356
+Which option describes a difference between EIGRP for IPv4 and IPv6?
+A.
+B.
+C.
+D.
+
+Only EIGRP for IPv6 advertises all connected networks.
+Only EIGRP for IPv6 requires a router ID to be configured under the routing process
+As numbers are configure in EIGRP but not in EIGRPv3.
+Only EIGRP for IPv6 is enabled in the global configuration mode.
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 357
+Which option describes the purpose of traffic policing?
+A.
+B.
+C.
+D.
+
+It prioritizes routing protocol traffic.
+It remarks traffic that is below the CIR
+It drops traffic that exceeds the CIR.
+It queues and then transmits traffic that exceeds the CIR.
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 358
+Which process is associated with spanning-tree convergence?
+A.
+B.
+C.
+D.
+
+determining the path cost
+electing designated ports
+learning the sender bridge ID
+assigning the port ID
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 359
+what is a difference between TACACS+ and RADIUS in AAA?
+A.
+B.
+C.
+D.
+
+Only TACACS+ allows for separate authentication.
+Only RADIUS encrypts the entire access-request packet.
+Only RADIUS uses TCP
+Only TACACS+ couples authentication and authorization.
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 360
+Which option is a benefit of switch stacking?
+A.
+B.
+C.
+D.
+
+It provides redundancy with no impact on resource usage
+It simplifies adding and removing hosts.
+It supports better performance of high-needs applications.
+It provides higher port density with better resource usage.
+
+Correct Answer: D
+Section: part 8
+Explanation
+Explanation/Reference:
+
+QUESTION 361
+Which port state is introduced by Rapid-PVST?
+
+A.
+B.
+C.
+D.
+
+learning
+listening
+discarding
+forwarding
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+Rpvst新增了一种端口角色----discarding
+QUESTION 362
+What are the possible trunking modes for a switch port? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+transparent
+auto
+on
+desirable
+client
+forwarding
+
+Correct Answer: BCD
+Section: part 8
+Explanation
+Explanation/Reference:
+考点：考查交换机在trunk模式下的模式
+auto：不会主动发DTP信息
+on：强制成为trunk，也主动发DTP信息
+desirable：DTP主动模式，发DTP和对方协商
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 363
+Refer to the exhibit. When running OSPF, What would cause router A not to form an adjacency with router
+B?
+
+A. The loopback addresses are on different subnets.
+B. The value of the dead timers on the router are different.
+C. Route summarization is enabled on both routers.
+
+D. The process indentifier on router A is different than the process identifier on router B.
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+考点：考查OSPF邻居建立的条件。
+区域ID，hello周期，网段，认证等。
+A：loopback地址不同网段，错误
+B：hello的死亡时间不一样，正确
+C：开启了路由汇总，错误。这个没关系
+D：两端的路由进程不一致。错误。
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 364
+What command instructs the device to timestamp Syslog debug messages in milliseconds?
+A.
+B.
+C.
+D.
+
+service timestamps log datetime localtime
+service timestamps debug datetime msec
+service timestamps debug datetime localtime
+service timestamps log datetime msec
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 365
+Refer to the exhibit. What set of commands was configured on interface Fa0/3 to produce the given the
+output?
+
+A. interface FastEthernet 0/3
+Channel-group 1 mode desirable
+Switchport trunk encapsulation dot1q
+Switchport mode trunk
+B. interface FastEthernet 0/3
+Channel-group 2 mode passive
+Switchport trunk encapsulation dot1q
+Switchport mode trunk
+C. interface FastEthernet 0/3
+Channel-group 2 mode on
+Switchport trunk encapsulation dot1q
+Switchport mode trunk
+D. interface FastEthernet 0/3
+Channel-group 2 mode active
+Switchport trunk encapsulation dot1q
+Switchport mode trunk
+Correct Answer: B
+Section: part 8
+
+Explanation
+Explanation/Reference:
+QUESTION 366
+While troubleshooting a connection problem on a computer,you determined that the computer can ping a
+specific web server but it
+cannot connect to TCP port 80 on that server.Which reason for the problem is most likely ture?
+A.
+B.
+C.
+D.
+
+A VLAN number is incorrect
+An ARP table entry is missing
+A route is missing
+An ACL is blocking the TCP port
+
+Correct Answer: D
+Section: part 8
+Explanation
+Explanation/Reference:
+
+QUESTION 367
+When troubleshooting Ethernet connectivity issues,how can you verify that an IP address is known to a
+router?
+A.
+B.
+C.
+D.
+
+Check whether the IP address is in the routing table
+Check whether an ACL is blocking the IP address
+Check whether the IP address is in the CAM table
+Check whether the IP address is in the ARP table
+
+Correct Answer: D
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 368
+
+Refer to the exhibit.After you apply the given configuration to R1, you determine that it is failing to advertise
+the 172.16.10.32/27 network .Which action most likely to correct the problem.
+
+A.
+B.
+C.
+D.
+
+Enable passive interface
+Enable RIPv2
+Enable manual summarization
+Enable autosummarization.
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 369
+Which two steps must you perform on each device that is configured for IPv4 routing before you implement
+OSPFv3?(Choose two)
+A.
+B.
+C.
+D.
+E.
+
+configure an autonomous system number
+configure a loopback interface
+configure a router ID
+Enable IPv6 on an interface
+Enable IPv6 unicast routing
+
+Correct Answer: DE
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 370
+Which option is the main function of congestion management?
+A.
+B.
+C.
+D.
+
+discarding excess traffic
+queuing traffic based on priority
+classifying traffic
+providing long-term storage of buffered data
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 371
+Which command must you enter to enable OSPFV2 in an IPV4 network?
+A.
+B.
+C.
+D.
+
+ip ospf hello-interval seconds
+router ospfv2 process-id
+router ospf value
+router ospf process-id
+
+Correct Answer: D
+Section: part 8
+Explanation
+Explanation/Reference:
+
+QUESTION 372
+
+Refer to the exhibit.If RTR01 is configured as shown,which three addresses will be received by other
+routers that are running EIGRP on the
+network?(choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+192.168.2.0
+10.4.3.0
+10.0.0.0
+172.16.0.0
+172.16.4.0
+192.168.0.0
+
+Correct Answer: ACD
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 373
+Which type of secure MAC address must be configured manually?
+A.
+B.
+C.
+D.
+
+dynamic
+bia
+static
+sticky
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 374
+Which two options are fields in an Ethernet frame?(choose two)
+A.
+B.
+C.
+D.
+E.
+
+frame check sequence
+header
+source IP address
+destination IP address
+type
+
+Correct Answer: AE
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 375
+
+Where does a switch maintain DHCP snooping information ?
+A.
+B.
+C.
+D.
+
+in the MAC address table
+in the CAM table
+in the DHCP binding database
+in the VLAN database
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 376
+To enable router on a router subinterface,which two steps must you perform?(choose two)
+A.
+B.
+C.
+D.
+E.
+
+Configure full duplex and speed
+configure the subinterface with an IP address
+Configure an IP route to the VLAN destination network
+Configure a default to route traffic between subinterface
+Configure encapsulation dot1q
+
+Correct Answer: BE
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 377
+Which command can you enter on a switch to determine the current SNMP security model?
+A.
+B.
+C.
+D.
+
+show snmp group
+show snmp pending
+snmp-server contact
+show snmp engineID
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 378
+Which statement about spanning-tree root-bridge election is true?
+A.
+B.
+C.
+D.
+
+It is always performed automatically
+Each VLAN must have its own root bridge
+Each VLAN must use the same root bridge
+Each root bridge must reside on the same root switch
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+
+QUESTION 379
+Which two statements about IPv6 address 2002:ab10:beef::/48 are true?(choose two)
+A.
+B.
+C.
+D.
+E.
+
+The embedded IPv4 address can be globally routed.
+It is used for an ISATAP tunnel
+The embedded IPv4 address is an RFC 1918 address
+The MAC address 20:02:b0:10:be:ef is embedded into the IPv6 address
+It is used for a 6to4 tunnel
+
+Correct Answer: AE
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 380
+Which step in the router boot process searches for an IOS image to load into the router?
+A.
+B.
+C.
+D.
+
+bootstrap
+POST
+mini-IOS
+ROMMON mode
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 381
+What is one benefit of PVST+?
+A.
+B.
+C.
+D.
+
+PVST+reduces the CPU cycles for all the switches in the network
+PVST+automatically selects the root bridge location,to provide optimized bandwidth usage.
+PVST+allow the root switch location to be optimized per vlan.
+PVST+supports Layer 3 load balancing without loops.
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 382
+Which three of these statements regarding 802.1Q trunking are correct? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+
+802.1Q native VLAN frames are untagged by default.
+802.1Q trunking ports can also be secure ports.
+802.1Q trunks can use 10 Mb/s Ethernet interfaces.
+802.1Q trunks require full-duplex, point-to-point connectivity.
+802.1Q trunks should have native VLANs that are the same at both ends.
+
+Correct Answer: ACE
+Section: part 8
+
+Explanation
+Explanation/Reference:
+QUESTION 383
+Which IEEE standard protocol is initiated as a result of successful DTP completion in a switch over
+FastEthernet?
+A.
+B.
+C.
+D.
+
+802.3ad
+802.1w
+802.1Q
+802.1d
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 384
+Which PPP subprotocol negotiates authentication options?
+A.
+B.
+C.
+D.
+E.
+
+NCP
+LCP
+ISDN
+DLCI
+SLIP
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 385
+Which two statements describe characteristics of IPv6 unicast addressing? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+Global addresses start with 2000::/3.
+Link-local addresses start with FE00:/12.
+Link-local addresses start with FF00::/10.
+There is only one loopback address and it is ::1.
+If a global address is assigned to an interface, then that is the only allowable address for the interface.
+
+Correct Answer: AD
+Section: part 8
+Explanation
+Explanation/Reference:
+globaladdress的其实段位2000::/3这个是定义好了的,D选项说的是换回地址,也就是ipv4的
+127.0.0.1这个类似的.所以D正确
+QUESTION 386
+While troubleshooting a DHCP client that is behaving erratically, you discover that the client has been
+assigned the same IP address as a printer that is a staticIP address. Which option is the best way to
+resolve the problem?
+
+A.
+B.
+C.
+D.
+E.
+
+Configurea static route to the client.
+Assign the client the same IP address as the router.
+Move the client to another IP subnet
+Move the printer to another IP subnet.
+Reservethe printer IP address.
+
+Correct Answer: E
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 387
+Under which circumstance is a router on a stick most appropriate?
+A.
+B.
+C.
+D.
+
+When a router have multiple subnets on a single physical link.
+When a router have single subnet on multiple physical links.
+When a router have multiple interface on single physical links.
+When a router have single interface on multiple physical links.
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 388
+Refer to the exhibit. Given the output from the show ip eigrp topology command, which router is the
+feasible successor?
+
+A. 10.1.0.1 (Serial0), from 10.1.0.1, Send flag is 0x0
+Composite metric is (46152000/41640000), Route is Internal
+Vector metric:
+Minimum bandwidth is 64 Kbit
+Total delay is 45000 Microseconds
+Reliability is 255/255
+Load is 1/255
+Minimum MTU is 1500
+Hop count is 2
+B. 10.0.0.2 (Serial0.1), from 10.0.0.2, Send flag is 0x0
+Composite metric is (53973248/128256), Route is Internal
+Vector Metric:
+Minimum bandwidth is 48 Kbit
+Total delay is 25000 Microseconds
+Reliability is 255/255
+Load is 1/255
+Minimum MTU is 1500
+Hop count is 1
+C. 10.1.0.3 (Serial0), from 10.1.0.3, Send flag is 0x0
+Composite metric is (46866176/46354176), Route is Internal
+Vector metric:
+Minimum bandwidth is 56 Kbit
+Total delay is 45000 microseconds
+
+Reliability is 255/255
+Load is 1/255
+Minimum MTU is 1500
+Hop count is 2
+D. 10.1.1.1 (Serial0.1), from 10.1.1.1, Send flag is 0x0
+Composite metric is (46763776/46251776), Route is External
+Vector metric:
+Minimum bandwidth is 56 Kbit
+Total delay is 41000 microseconds
+Reliability is 255/255
+Load is 1/255
+Minimum MTU is 1500
+Hop count is 2
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+FS的AD必须要小于后继的FD
+QUESTION 389
+Which symptom can cause duplex mismatch problem?
+A.
+B.
+C.
+D.
+
+no earner
+collisions on interface
+giants
+CRC errors
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 390
+Which of the port is not part of STP protocol.
+A.
+B.
+C.
+D.
+
+Listening
+Learning
+Forwarding
+Discarding
+
+Correct Answer: D
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 391
+which port security violation mode allows traffic from valid mac address to pass but block traffic from invalid
+mac address?
+A.
+B.
+C.
+D.
+
+protect
+shutdown
+shutdown vlan
+restrict
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 392
+Which type of routing protocol operates by exchanging the entire routing information ?
+A.
+B.
+C.
+D.
+
+distance vector protocols
+link state protocols
+path vector protocols
+exterior gateway protocols
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 393
+Which IPsec security protocol should be used when confidentiality is required?
+A.
+B.
+C.
+D.
+
+MD5
+PSK
+AH
+ESP
+
+Correct Answer: D
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 394
+Which IPv6 routing protocol uses multicast group FF02::9 to send updates?
+A.
+B.
+C.
+D.
+
+static
+RIPng
+OSPFv3
+IS-IS for IPv6
+
+Correct Answer: B
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 395
+which definition of a host route is true ?
+A.
+B.
+C.
+D.
+
+A route that is manually configured
+A route used when a destination route is missing.
+A route to the exact /32 destination address
+Dynamic route learned from the server.
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+
+QUESTION 396
+which statement about upgrading a cisco IOS device with TFTP server ?
+A.
+B.
+C.
+D.
+
+the operation is performed in active mode
+the operation is performed in unencrypted format
+the operation is performed in passive mode
+the cisco IOS device must be on the same LAN as the TFTP server
+
+Correct Answer: D
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 397
+Which statement about DHCP snooping is true?
+A.
+B.
+C.
+D.
+
+it blocks traffic from DHCP servers on untrusted interfaces.
+it can be configured on switches and routers.
+it allows packets from untrusted ports if their source MAC address is found in the binding table.
+it uses DHCPDiscover packets to identify DHCP servers.
+
+Correct Answer: A
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 398
+Which three commands are required to enable NTP authentication on a Cisco router? (Choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+ntp peer
+ntp max-associations
+ntp authenticate
+ntp trusted-key
+ntp authentication-key
+ntp refclock
+
+Correct Answer: CDE
+Section: part 8
+Explanation
+Explanation/Reference:
+
+QUESTION 399
+Which functionality does an SVI provide?
+A.
+B.
+C.
+D.
+
+OSI Layer 2 connectivity to switches
+remote switch administration
+traffic routing for VLANs
+OSI Layer 3 connectivity to switches
+
+Correct Answer: C
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 400
+Which three statements about IPv6 address fd14:920b:f83d:4079::/64 are true? (Choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+The subnet ID is 14920bf83d
+The subnet ID is 4079
+The global ID is 14920bf83d
+The address is a link-local address
+The global ID is 4079
+The address is a unique local address
+
+Correct Answer: BCF
+Section: part 8
+Explanation
+Explanation/Reference:
+QUESTION 401
+Which three statements about DWDM are true? (Choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+It allows a single strand of fiber to support bidirectional communications
+It is used for long-distance and submarine cable systems
+It can multiplex up to 256 channels on a single fiber
+It supports both the SDH and SONET standards
+Each channel can carry up to a 1-Gbps signal
+It supports simplex communications over multiple strands of fiber
+
+Correct Answer: ABD
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 402
+If two OSPF neighbors have formed complete adjacency and are exchanging link-state advertisements,
+which state have they reached?
+
+A.
+B.
+C.
+D.
+
+Exstart
+2-Way
+FULL
+Exchange
+
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 403
+Which tunneling mechanism embeds an IPv4 address within an IPv6 address?
+A.
+B.
+C.
+D.
+E.
+
+Teredo
+6to4
+4to6
+GRE
+ISATAP
+
+Correct Answer: B
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 404
+Which of the following statements describe the network shown in the graphic? (Choose two.)
+
+A. There are two broadcast domains in the network.
+B. There are four broadcast domains in the network.
+C. There are six broadcast domains in the network.
+
+D. There are four collision domains in the network.
+E. There are five collision domains in the network.
+F. There are seven collision domains in the network.
+Correct Answer: AF
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 405
+Which one of these is a valid HSRP Virtual Mac Address?
+A.
+B.
+C.
+D.
+
+0000.0C07.AC15
+0000.5E00.01A3
+0007.B400.AE01
+0007.5E00.B301
+
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+HSRP virtual Mac address 0000.0c07.acXX 开头，所以答案要选择0000.0c07.ac开头的选项
+QUESTION 406
+assuming the default switch configuration which vlan range can be added modified and removed on a
+cisco switch?
+A.
+B.
+C.
+D.
+
+2 through 1001
+1 through 1001
+1 through 1002
+2 through 1005
+
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+交换机上默认那些是可以修改和移动的vlan。2-1001
+QUESTION 407
+Refer to the exhibit.Which two statements are true of the interfaces on switch1?(choose two)
+
+A.
+B.
+C.
+D.
+E.
+F.
+
+A hub is connected directly to FastEthernet0/5
+FastEthernet0/1 is configured as a trunk link.
+FastEthernet0/5 has statically assigned mac address
+Interface FastEthernet0/2 has been disable.
+Multiple devices are connected directly to FastEthernet0/1.
+FastEthernet0/1 is connected to a host with multiple network interface cards.
+
+Correct Answer: AB
+Section: part 9
+Explanation
+Explanation/Reference:
+图中show cdp nei可以看出F0/1,F0/2为连接两个邻居交换机的端口，所以这两个端口为trunk。F0/5端口有
+多个mac地址，而且不是trunk，只能是接了一个hub。
+QUESTION 408
+Refer to the exhibit. How should the FastEthernet0/1 port on the 2950 model switches that are shown in
+the exhibit be configured to allow connectivity between all devices?
+
+A. The ports only need to be connected by a crossover cable.
+B. SwitchX(config)# interface FastEthernet 0/1
+SwitchX(config-if)# switchport mode trunk
+C. SwitchX(config)# interface FastEthernet 0/1
+SwitchX(config-if)# switchport mode access
+SwitchX(config-if)# switchport access vlan 1
+D. SwitchX(config)# interface FastEthernet 0/1
+SwitchX(config-if)# switchport mode trunk
+SwitchX(config-if)# switchport trunk vlan 1
+SwitchX(config-if)# switchport trunk vlan 10
+SwitchX(config-if)# switchport trunk vlan 20
+Correct Answer: B
+Section: part 9
+Explanation
+Explanation/Reference:
+fa0/0,fa0/1--此两接口都必须配置成trunk,才能达到vlan间通信
+而且sw1和sw2间的链路必须trunk才能带到相同vlan的通信
+QUESTION 409
+Which three statements about the features of SNMPv2 and SNMPv3 are true? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+F.
+
+SNMPv3 enhanced SNMPv2 security features
+SNMPv3 added the Inform protocol message to SNMP.
+SNMPv2 added the Inform protocol message to SNMP
+SNMPv3 added the GetBulk protocol messages to SNMP
+SNMPv2 added the GetBulk protocol message to SNMP.
+SNMPv2 added the GetNext protocol message to SNMP.
+
+Correct Answer: ACE
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 410
+which command do use we to see SNMP version
+A.
+B.
+C.
+D.
+
+show snmp pending
+show snmp engineID
+snmp-server something
+http://bbs.hh010.com
+
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 411
+Which protocol does ipv6 use to discover other ipv6 nodes on the same segment?
+A.
+B.
+C.
+D.
+E.
+
+CLNS
+TCPv6
+NHRP
+NDP
+ARP
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 412
+What is the most efficient subnet mask for a point to point ipv6 connection?
+A.
+B.
+C.
+D.
+E.
+
+/127
+/128
+/64
+/48
+/32
+
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 413
+What are three features of the IPV6 protocol?(choose three)
+A. complicated header
+B. plug-and-play
+C. no broadcasts
+
+D. checksums
+E. optional IPsec
+F. autoconfiguration
+Correct Answer: BCF
+Section: part 9
+Explanation
+Explanation/Reference:
+B即插即用
+C没广播地址
+F自动设置
+QUESTION 414
+Why do large OSPF networks use a hierarchical design?(choose three)
+A.
+B.
+C.
+D.
+E.
+F.
+
+to confine network instability to single areas of the network.
+to reduce the complexity of router configuration
+to speed up convergence
+to lower costs by replacing routers with distribution layer switches
+to decrease latency by increasing bandwidth
+to reduce routing overhead
+
+Correct Answer: ACF
+Section: part 9
+Explanation
+Explanation/Reference:
+A把网络的不稳定性局限于单个区域
+C加快汇聚
+F减少路由负载
+-----------鸿鹄论坛http://bbs.hh010.com/
+QUESTION 415
+Where does routing occur within the DoD TCP/IP reference model?
+A.
+B.
+C.
+D.
+
+application
+internet
+network
+transport
+
+Correct Answer: B
+Section: part 9
+Explanation
+Explanation/Reference:
+路由发生在DOD模型的哪一层？
+注意是DOD模型不是OSI模型
+
+QUESTION 416
+
+If Computer A is sending traffic to computer B, which option is the source ip address when a packet leaves
+R1 on
+interface F0/1?
+A.
+B.
+C.
+D.
+
+IP address of the R2 interface F0/1
+Ip address of computer B
+Ip address of R1 interface F0/1
+Ip address of Computer A
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 417
+Which feature can you use to restrict SNMP queries to a specific OID tree?
+
+A.
+B.
+C.
+D.
+
+server group
+a community
+a view record
+an access group
+
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 418
+Refer to the exhibit:
+
+after you apply the give configurations to R1 and R2 you notice that OSPFv3 fails to start
+Which reason for the problem is most likely true ?
+A.
+B.
+C.
+D.
+
+The area numbers on R1 and R2 are mismatched
+The IPv6 network addresses on R1 and R2 are mismatched
+The autonomous system numbers on R1 and R2 are mismatched
+The router ids on R1 and R2 are mismatched
+
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 419
+Afer you apply the given configuration to a router, the DHCP clients behind the device cannot
+communicate with hosts outside of their subnet.
+Which action is most likely to correct the problem?
+
+A.
+B.
+C.
+D.
+
+Configure the dns server on the same subnet as the clients
+Activate the dhcp pool
+Correct the subnet mask
+configure the default gateway
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 420
+which command can you enter in a network switch configuration so that learned mac addresses are saved
+in configuration as they connect?
+A.
+B.
+C.
+D.
+
+Switch(config-if)#Switch port-security
+Switch(config-if)#Switch port-security Mac-address stcky
+Switch(config-if)#Switch port-security maximum 10
+Switch(config-if)#Switch mode access
+
+Correct Answer: B
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 421
+Which RPVST+ port state is excluded from all STP operations?
+A.
+B.
+C.
+D.
+
+learning
+forwarding
+blocking
+disabled
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 422
+Which command can you enter to block HTTPS traffic from the whole class A private network range to a
+host?
+A.
+B.
+C.
+D.
+
+R1(config)#access-list 105 deny tcp 10.1.0.0 0.0.255.255 40.0.0.2 0.0.0.0 eq 443
+R1(config)#access-list 105 deny tcp 10.1.0.0 0.0.255.255 40.0.0.2 0.0.0.0 eq 53
+R1(config)#access-list 105 deny tcp 10.0.0.0 0.255.255.255 40.0.0.2 0.0.0.0 eq 53
+R1(config)#access-list 105 deny tcp 10.0.0.0 0.255.255.255 40.0.0.2 0.0.0.0 eq 443
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 423
+When is a routing table entry identified as directly connected?
+A.
+B.
+C.
+D.
+
+when the local router is in use as the network default gateway
+when the network resides on a remote router that is physically connected to the local router
+when an interface on the router is configure with an ip address and enabled
+when the route is statically assigned to reach a specific network
+
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 424
+Which address block identifies all link-local addresses?
+A.
+B.
+C.
+D.
+
+FC00::/7
+FC00::/8
+FE80::/10
+FF00::/8
+
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 425
+Which option is the industry-standard protocol for EtherChannel ?
+A.
+B.
+C.
+D.
+
+PAgP
+LACP
+Cisco Discovery Protocol
+DTP
+
+Correct Answer: B
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 426
+For which two reasons was RFC 1918 address space define (Choose two)
+
+A.
+B.
+C.
+D.
+E.
+
+to preserve public IPv4 address space
+to reduce the occurrence of overlapping IP addresses
+to preserve public IPv6 address space
+reduce the size of ISP routing tables
+to support the NAT protocol
+
+Correct Answer: AB
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 427
+Which two statements about RIPv2 are true? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+It must be manually enabled after RIP is configured as the routing protocol
+It uses multicast address 224.0.0.2 to share routing information between peers
+its default administrative distances 120
+It is a link-state routing protocol
+It is an EGP routing protocol
+
+Correct Answer: AC
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 428
+In which CLI configuration mode can you configure the hostname of a device?
+A.
+B.
+C.
+D.
+
+line mode
+interface mode
+global mode
+router mode
+
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 429
+In which two circumstances are private IPv4 addresses appropriate? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+on internal hosts that stream data solely to external resources
+on hosts that communicates only with other internal hosts
+on the public-facing interface of a firewall
+on hosts that require minimal access to external resources
+to allow hosts inside an enterprise to communicate in both directions with hosts
+outside the enterprise
+
+Correct Answer: BD
+Section: part 9
+Explanation
+
+Explanation/Reference:
+QUESTION 430
+Which two statements about eBGP neighbor relationships are true? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+The two devices must reside in different autonomous systems
+Neighbors must be specifically declared in the configuration of each device
+They can be created dynamically after the network statement is con-figured.
+The two devices must reside in the same autonomous system
+The two devices must have matching timer settings
+
+Correct Answer: AB
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 431
+Which two pieces of information can be shared with LLDP TLVs? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+device management address.
+device type
+spanning-tree topology
+routing configuration
+access-list configuration
+
+Correct Answer: AB
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 432
+Which two statements about UDP are true? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+It can transmit data at a rate higher than the path capacity
+It uses a three-way handshake to ensure that traffic is transmitted properly
+It guarantees packet delivery
+it includes protection against duplicate packets
+it can be used for multicast and broadcast traffic
+
+Correct Answer: AE
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 433
+Which two statements about access points are true? (Choose Two)
+A. They can provide access within enterprises and to the public.
+
+B.
+C.
+D.
+E.
+
+in Most cases, they are physically connected to other network devices to provide network connectivity
+They can protect a network from internal and external threats.
+Most access points provide Wi-Fi and Bluetooth connectivity.
+They must be hardwired to a modem.
+
+Correct Answer: BD
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 434
+For which two protocols can PortFast alleviate potential host startup is-sues? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+
+DHCP
+DNS
+OSPF
+RIP
+CDP
+
+Correct Answer: AB
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 435
+What does it take for BGP to establish connection. (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+Enable cdp
+AS number on local router
+AS number on remote router
+IGP
+EGP
+
+Correct Answer: BC
+Section: part 9
+Explanation
+Explanation/Reference:
+router bgp AS LOCAL
+neighbor xxxx remote-as AS number on remote router
+QUESTION 436
+On which layer tcp/ip is ACL Apic-EM path
+A.
+B.
+C.
+D.
+
+Layer 1
+Layer 2
+Layer 3
+Layer 4
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 437
+Which cloud service is typically used to provide DNS and DHCP services to an enterprise?
+A.
+B.
+C.
+D.
+
+IaaS
+DaaS
+SaaS
+PaaS
+
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 438
+Which three statements about Syslog utilization are true? (Choose three.)
+A.
+B.
+C.
+D.
+
+Utilizing Syslog improves network performance
+The Syslog server automatically notifies the network administrator of network problems
+A Syslog server provides the storage space necessary to store log files without using router disk space
+There are more Syslog messages available within Cisco IOS than there are comparable SNMP trap
+messages.
+E. Enabling Syslog on a router automatically enables NTP for accurate time stamping
+F. A Syslog server helps in aggregation of logs and alerts.
+Correct Answer: CDF
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 439
+Which of EUI-64 addressing are true? (Choose two)
+A.
+B.
+C.
+D.
+E.
+
+Locally administered address has uni or local bit set to zero.
+96 bit interface MAC address
+64 bit interface MAC address
+insert FFFE after last 24 bits of interface MAC address
+insert FFFE after first 24 bits of interface MAC address.
+
+Correct Answer: CE
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 440
+After you configure the ip dns spoofing command globally on a device,under which two conditions is DNS
+spoofing enabled on the device?(choose two)
+
+A.
+B.
+C.
+D.
+E.
+
+The DNS server queue limit id disabled
+The ip host command is disabled
+All configured IP name server addresses are removed
+The ip dns spoofing command is disabled on the local interface
+The no ip domain lookup command is configured
+
+Correct Answer: CE
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 441
+which task must you perform to enable an IOS device to use DNS services?
+A.
+B.
+C.
+D.
+
+configure a relay agent information reforwarding policy
+configure manual bindings
+configure the relay agent information option
+configure a name server
+
+Correct Answer: B
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 442
+Which two IP SLA operations can you use to measure the end-to-end response time for all IP traffic
+between
+a Cisco router and an end device ?(choose two)
+A.
+B.
+C.
+D.
+E.
+F.
+
+UDP jitter
+ICMP path jitter
+TCP connect
+ICMP path echo
+ICMP echo
+UDP echo
+
+Correct Answer: EF
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 443
+What authentication type is used by SNMPv2 ?
+A.
+B.
+C.
+D.
+
+username and password
+community strings
+HMAC-MD5
+HMAC-SHA
+
+Correct Answer: B
+Section: part 9
+Explanation
+
+Explanation/Reference:
+QUESTION 444
+Which MAC protocol sets a random timer to reattempt communication ?
+A.
+B.
+C.
+D.
+
+RARP
+CSMA/CA
+CSMA/CD
+IEEE 802.1x
+
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 445
+While troubleshooting a GRE tunnel interface issue,show interface command output displays tunnel
+status up,but line protocol is down.
+Which reason for this problem is most likely ?
+A.
+B.
+C.
+D.
+
+The route to the tunnel destination address is through the tunnel itself
+The next hop server is misconfigured
+The interface has been administratively shut down
+The tunnel was just reset
+
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 446
+Which two statements about stacking Cisco switches are true ?(choose two)
+A. It enables the administrator to manage multiple switches from a single management interface
+B. The administrator can create only one stack of switches in a network which is under the same
+administrative domian
+C. When a new master switch is elected,it queries the previous master for its running configuration
+D. The administrator can add additional switches to the stack as demand increases
+E. Each switch manages its own MAC address table
+Correct Answer: AD
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 447
+
+Router R1 has a static route that is configured to destination network.A directly
+
+connected interface is configured with an IP address in the same destination
+network.Which statement about R1 is true?
+A. R1 refuses to advertise the dynamic route to other neighbors
+B. R1 prefers the static route
+C. R1 prefers the directly connected interface
+D. R1 sends a withdrawal notification to the neighboring router
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 448
+
+Which type of address is the public IP address of a NAT device?
+A. outside public
+B. inside local
+C. inside global
+D. inside public
+E. outside global
+F. outside local
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 449
+
+Which configuration register value can you set on a Cisco device so that it ignores the
+NVRAM when it boots?
+A. 0x2124
+B. 0x2120
+C. 0x2142
+D. 0x2102
+Correct Answer: C
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 450
+
+Which two benefits can you get by stacking Cisco switches?(choose two)
+A. Each switch in the stack handles the MAC table independently from the others
+B. You can add or remove switches without taking the stack down.
+C. Each switch in the stack can use a different IOS image
+
+D. The stack enables any active member to take over as the master switch if the existing
+
+master fails.
+E. You can license the entire stack with a single master license
+Correct Answer: BD
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 451
+
+Which command can you enter to verify that a router is synced with a configures time
+source?
+A. show ntp authenticate
+B. ntp associations
+C. ntp server time
+D. ntp authenticate
+E. show ntp associations
+Correct Answer: E
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 452
+
+two statements about LLDP are true ?(choose two)
+
+A. It uses mandatory TLVs to discover the neighboring devices
+B. It functions at Layer 2 and Layer 3
+C. It is a Cisco-proprietary technology
+D. It is implemented in accordance with the 802.11a specification
+E. It enables systems to learn about one another over the data-link layer
+Correct Answer: AE
+Section: part 9
+Explanation
+Explanation/Reference:
+
+QUESTION 453
+
+A network administrator enters the following command on a router:logging trap 3 .
+What are three message types that will be sent to the Syslog server?(choose three)
+
+A. warning
+B. informational
+C. error
+D. emergency
+E. debug
+F. critical
+Correct Answer: CDF
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 454
+Refer to the exhibit. Which statement is true?
+
+A.
+B.
+C.
+D.
+
+The Fa0/11 role confirms that SwitchA is the root bridge for VLAN 20.
+VLAN 20 is running the Per VLAN Spanning Tree Protocol
+The MAC address of the root bridge is 0017.596d.1580.
+SwitchA is not the root bridge, because not all of the interface roles are designated
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+stp对于跟桥所有的接口都是指定端口
+QUESTION 455
+
+Which technology allows a large number of private IP addresses to be represented by a
+smaller number of public IP addresses?
+A. NAT
+B. NTP
+
+C. RFC 1631
+D. RFC 1918
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 456
+
+Which two types of NAT addresses are used in a Cisco NAT device? (Choose two.)
+A. inside local
+B. inside global
+C. inside private
+D. outside private
+E. external global
+F. external local
+Correct Answer: AB
+Section: part 9
+Explanation
+Explanation/Reference:
+QUESTION 457
+Refer to the exhibit.A new subnet with 60 hosts has been added to the network.Which subnet address
+should this network use to provide enough usable addresses while wasting the fewest addresses?
+
+A.
+B.
+C.
+D.
+
+192.168.1.56/27
+192.168.1.64/26
+192.168.1.64/27
+192.168.1.56/26
+
+Correct Answer: B
+Section: part 9
+Explanation
+Explanation/Reference:
+要考虑到图中已经用掉的网段
+QUESTION 458
+
+Refer to the exhibit.If the devices produced the given output,what is the cause of the EtherChannel
+problem?
+A.
+B.
+C.
+D.
+
+There is a speed mismatch between SW1's Fa0/1 and SW2's Fa0/1 interfaces.
+There is an MTU mismatch between SW1's Fa0/1 and SW2's Fa0/1 interfaces
+There is an encapsulation mismatch between SW1's Fa0/1 and SW2's Fa0/1 interface
+SW1's Fa0/1 interface is administratively shut down.
+
+Correct Answer: A
+Section: part 9
+Explanation
+Explanation/Reference:
+EtherChannel中两个端口需要speed一致
+QUESTION 459
+Which option is a valid IPv6 address?
+A.
+B.
+C.
+D.
+
+2001:0000:130F::099a::12a
+2002:7654:A1AD:61:81AF:CCC1
+FEC0:2927:1860:W067::2A4
+2004:1:25A4:886F::1
+
+Correct Answer: D
+Section: part 9
+Explanation
+Explanation/Reference:
+A.只能一个冒号
+
