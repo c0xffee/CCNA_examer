@@ -11,10 +11,8 @@ filter = ['A. ', 'B. ', 'C. ', 'D. ', 'E. ', 'F. ', 'G. ']
 questions = []
 for q in qs[1:]:
   qq = q.split(separator[1], 1)
-  #print(qq)
   tmp = ['%s%s'%(separator[0], qq[0])]##questions
   qqq = qq[-1].split(separator[2])
-  #print(qqq)
   chosens = []
   if qqq[0][0] != ' ':
     tp = [separator[1]]
@@ -23,7 +21,6 @@ for q in qs[1:]:
     for i in tp:
       if i != '':
         temp.append(i)
-    #print(temp)
     for i in range(len(temp)//2):
       ##chosens.append('%s %s'%(temp[i].replace(' ', ''), temp[len(temp)//2+i]))
       chosens.append('%s. %s'%(chr(65+i), temp[len(temp)//2+i]))
@@ -40,14 +37,9 @@ for q in qs[1:]:
   ##head = temp[:len(temp)//2]    
   ##tail = temp[len(temp)//2:]    
   tmp.append(chosens)##chosens
-  #print('ch>>>>', chosens)
   tmp.append('%s%s'%(separator[2], qqq[-1]))##results
   ##ans = [i for i in qqq[-1].split()[0].split()[0]]
   ans = qqq[-1].split()[0]
-  print('////////', qqq[-1],'>>>>')
-  print(ans)
-  #print(ans)
-  #print(tmp[0][:12])
   tmp.append(ans)##answers
   
   questions.append(tmp)
